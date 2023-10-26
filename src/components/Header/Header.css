@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.mr-auto{
+    display: flex;
+    justify-content: flex-end;
+}
+.menu{
+    font-weight: 600;
+}
+a{
+    margin-right: 20px;
+}
