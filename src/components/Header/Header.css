@@ -3,17 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    width: 100%;
-    height: 100vh;
-}
-.mr-auto{
+.header{
     display: flex;
-    justify-content: flex-end;
-}
-.menu{
-    font-weight: 600;
-}
-a{
-    margin-right: 20px;
 }

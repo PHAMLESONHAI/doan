@@ -1,39 +1,17 @@
+import img1 from"../../img/logo-removebg-preview.png"
+export default function Header(){
 
-import React, { useState } from 'react';
-import "./Header.css"
-import {
-    Collapse,
-    Navbar,
-    NavbarToggler,
-    NavbarBrand,
-    Nav,
-    NavItem,
-    NavLink,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem,
-    Container,
-} from 'reactstrap';
-export default function Header() {
-    const [isOpen, setIsOpen] = useState(false);
-
-    const toggle = () => setIsOpen(!isOpen);
-    return (
-        <div>
-            <Navbar expand="md"  className="menu"color="faded" light    >
-                <NavbarToggler onClick={toggle} />
-                <Collapse  className=" justify-content-end"  isOpen={isOpen} navbar>
-                    <Nav navbar>
-                        <NavLink href='#'>Home</NavLink>
-                        <NavLink href="/components/">About Us</NavLink>
-                        <NavLink href="#">Services<i class="fa-solid fa-chevron-down"></i></NavLink>
-                        <NavLink href='#'>Pages<i class="fa-solid fa-chevron-down"></i></NavLink>
-                        <NavLink href='#'>Blog<i class="fa-solid fa-chevron-down"></i></NavLink>
-                        <NavLink href='#'>Contact</NavLink>
-                    </Nav>
-                </Collapse>
-            </Navbar>
+    return(
+        <div className="header">
+            <h1 className="Logo"><img src={img1}></img>Farm V</h1>
+            <ul>
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Services</li>
+                <li>Pages</li>
+                <li>Blog</li>
+                <li>Contact</li>
+            </ul>
         </div>
     )
 }
