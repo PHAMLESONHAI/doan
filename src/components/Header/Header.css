@@ -1,8 +1,245 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.header{
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.menu {
+    font-weight: 600;
+}
+
+a {
+    margin-right: 20px;
+}
+
+.logo {
     display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+
+}
+.logo img{
+    width: 120px;
+}
+
+.logo h1{
+    margin-top: 10px;
+    font-size: 30px;
+}
+.logo:hover {
+    color: #333;
+}
+
+.header {
+    position: relative;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-transform: uppercase;
+    font-weight: 600;
+    align-items: center;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #333;
+    margin-left: 20px;
+}
+
+.header .toggle {
+    display: none;
+
+}
+
+.header .close {
+    display: none;
+}
+
+.nav-side ul {
+    display: none;
+}
+.icon{
+    position: relative;
+}
+.icon i{
+    position: absolute;
+    top: 10px;
+    right: 40px;
+}
+.icon i~i{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.search{
+    outline: none;
+    width: 220px;
+}
+
+@media only screen and (max-width: 767.13px) {
+    
+    a {
+        margin-right: 20px;
+    }
+    
+    .logo {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #333;
+        position: absolute;
+        top: 20px;
+    }
+    .logo img{
+        width: 120px;
+    }
+    .logo h1{
+        font-size: 30px;
+    }
+    .logo:hover {
+        color: #333;
+    }
+    
+    .header {
+        background-color: #fff;
+        height: 150px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        text-transform: uppercase;
+        font-weight: 600;
+        height: 200px;
+    }
+    
+    .navbar-light .navbar-nav .nav-link {
+        color: #333;
+        margin-left: 20px;
+    }
+    
+    .header .toggle {
+        display: none;
+    
+    }
+    
+    .header .close {
+        display: none;
+    }
+    .collapse:not(.show) {
+        display: block;
+    }
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+       justify-content: center;
+       font-size: 12px;
+       width: 100%;
+       margin-top: 120px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #333;
+        margin-left: 10px;
+    }
+    .icon{
+        position: relative;
+    }
+    .icon i{
+        position: absolute;
+        top: 10px;
+        right: 40px;
+    }
+    .icon i~i{
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+    .search{
+        outline: none;
+        width: 200px;
+    }
+
+}
+@media only screen and (max-width: 575.13px) {
+    .collapse:not(.show) {
+        display: none;
+    }
+    .logo img{
+        width: 120px;
+        margin-left: 30px;
+    }
+    .header {
+        position: relative;
+        background-color: #27ae60;
+        display: flex;
+        justify-content: space-between;
+        height: 150px;
+    }
+
+    .header .toggle {
+        display: block;
+        position: absolute;
+        right: 40px;
+        top: 50px;
+        padding: 5px;
+        width: 50px;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .header .nav-side {
+        width: 250px;
+        height: 100vh;
+        background-color: #27ae60;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translateX(-110%);
+    }
+
+    .header .nav-side.active {
+        transform: translateX(0);
+    }
+
+    .header .nav-side ul {
+        display: block;
+        
+    }
+
+    .header .nav-side ul li {
+        list-style: none;
+        margin-top: 50px;
+        text-decoration: none;
+    }
+    .header .nav-side ul li a{
+        text-decoration: none;
+    }
+    .header .close {
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 30px;
+        padding: 5px;
+        width: 40px;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .header .right {
+        position: absolute;
+        top: 0;
+        left: 250px;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.5);
+        transform: translateY(-110%);
+    }
+
+    .header .right.active {
+        transform: translateY(0);
+
+    }
 }
