@@ -56,7 +56,9 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
-                <div className="border"></div>
+                <div className="border">
+                    
+                </div>
 
                 <div  className="  icon1">
                     <Container>
