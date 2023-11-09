@@ -47,20 +47,20 @@ export default function Header() {
                     <li><a href='#' onClick={toggle1} >
                         Headphones
                     </a></li>
-                    <Collapse isOpen={on1}>
+                    <Collapse className='dropdown' isOpen={on1}>
                                     home
-                                    gdfgsdaer
+                                    
                     </Collapse>
                     <li><a href='#' onClick={toggle2} >
                         Accessories
                     </a></li>
-                    <Collapse isOpen={on2}>
+                    <Collapse className='dropdown'isOpen={on2}>
                                     home
                     </Collapse>
                     <li><a href='#' onClick={toggle3} >
                         Shop
                     </a></li>
-                    <Collapse isOpen={on3}>
+                    <Collapse className='dropdown'isOpen={on3}>
                                     home
                     </Collapse>
                      <li><a href='#'>Pages</a></li>

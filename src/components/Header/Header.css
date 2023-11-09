@@ -21,7 +21,7 @@ a {
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: #333;
+    color: #fff;
 
 }
 .logo img{
@@ -33,12 +33,12 @@ a {
     font-size: 30px;
 }
 .logo:hover {
-    color: #333;
+    color: #fff;
 }
 
 .header {
     position: relative;
-    background-color: #fff;
+    background-color: #3b3b3b;
     display: flex;
     justify-content: center;
     height: 150px;
@@ -49,8 +49,11 @@ a {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #333;
+    color: #fff;
     margin-left: 20px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #d96a77;
 }
 
 .header .toggle {
@@ -72,6 +75,7 @@ a {
     position: absolute;
     top: 10px;
     right: 40px;
+    color: #d96a77;
 }
 .icon i~i{
     position: absolute;
@@ -79,8 +83,14 @@ a {
     top: 10px;
 }
 .search{
+    border-radius: 5px;
+    background-color: #fff;
     outline: none;
     width: 220px;
+    color: #3b3b3b;
+    font-style: italic;
+    border: none;
+
 }
 
 @media only screen and (max-width: 767.13px) {
@@ -93,7 +103,7 @@ a {
         display: flex;
         align-items: center;
         text-decoration: none;
-        color: #333;
+        color: #fff;
         position: absolute;
         top: 20px;
     }
@@ -104,11 +114,11 @@ a {
         font-size: 30px;
     }
     .logo:hover {
-        color: #333;
+        color: #fff;
     }
     
     .header {
-        background-color: #fff;
+        background-color: #3b3b3b;
         height: 150px;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         text-transform: uppercase;
@@ -117,10 +127,13 @@ a {
     }
     
     .navbar-light .navbar-nav .nav-link {
-        color: #333;
+        color: #fff;
         margin-left: 20px;
     }
-    
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #d96a77;
+
+    }
     .header .toggle {
         display: none;
     
@@ -141,7 +154,7 @@ a {
        margin-top: 120px;
     }
     .navbar-light .navbar-nav .nav-link {
-        color: #333;
+        color: #fff;
         margin-left: 10px;
     }
     .icon{
@@ -173,7 +186,7 @@ a {
     }
     .header {
         position: relative;
-        background-color: #27ae60;
+        background-color: #3b3b3b;
         display: flex;
         justify-content: space-between;
         height: 150px;
@@ -193,7 +206,7 @@ a {
     .header .nav-side {
         width: 250px;
         height: 100vh;
-        background-color: #27ae60;
+        background-color: #fff;
         position: absolute;
         top: 0;
         left: 0;
@@ -211,11 +224,12 @@ a {
 
     .header .nav-side ul li {
         list-style: none;
-        margin-top: 50px;
+        margin-top: 40px;
         text-decoration: none;
     }
     .header .nav-side ul li a{
         text-decoration: none;
+        color: #3b3b3b;
     }
     .header .close {
         display: block;
@@ -241,5 +255,10 @@ a {
     .header .right.active {
         transform: translateY(0);
 
+    }
+    .dropdown{
+        margin-top: 10px;
+        color: #d96a77;
+        text-transform:capitalize;
     }
 }
