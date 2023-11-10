@@ -16,6 +16,8 @@ import {
     CardBody,
     Card,
     Button,
+    Row,
+    Col,
 } from 'reactstrap';
 import img1 from "../../img/logoheadphone.png"
 export default function Header() {
@@ -35,6 +37,7 @@ export default function Header() {
     const toggle2 = () => setOn2(!on2);
     const toggle3 = () => setOn3(!on3);
     return (
+        
         <div className='header' >
             <a href='#' className='logo'>  <img src={img1}></img><h1 > SoundG</h1></a>
             <button className='toggle' onClick={handle_toggle}>
@@ -43,22 +46,21 @@ export default function Header() {
             <div className='nav-side' ref={sidebarRef}>
                 <ul>
                     <li><a href='#'>Home</a></li>
-                    <li><a href='#'>Audio</a></li>
+                    <li><a href='#'>Accessories</a></li>
                     <li><a href='#' onClick={toggle1} >
-                        Headphones
+                        Headphones<i class="fa-solid fa-chevron-down" style={{marginLeft:"10px"}}></i>
                     </a></li>
                     <Collapse className='dropdown' isOpen={on1}>
                                     home
-                                    
                     </Collapse>
                     <li><a href='#' onClick={toggle2} >
-                        Accessories
+                        Audio<i class="fa-solid fa-chevron-down" style={{marginLeft:"10px"}}></i>
                     </a></li>
                     <Collapse className='dropdown'isOpen={on2}>
                                     home
                     </Collapse>
                     <li><a href='#' onClick={toggle3} >
-                        Shop
+                        Shop<i class="fa-solid fa-chevron-down" style={{marginLeft:"10px"}}></i>
                     </a></li>
                     <Collapse className='dropdown'isOpen={on3}>
                                     home
@@ -72,10 +74,11 @@ export default function Header() {
                 <Collapse className='justify-content-end text' isOpen={on} navbar>
                     <Nav navbar >
                         <NavLink href='#'>Home</NavLink>
-                        <NavLink href="/components/">Audio</NavLink>
-                        <NavLink href="#">Headphones</NavLink>
-                        <NavLink href='#'>Accessories</NavLink>
-                        <NavLink href='#'>Shop</NavLink>
+                        <NavLink href="#">Accessories</NavLink>
+                        <NavLink href="#" >Headphones<i class="fa-solid fa-chevron-down" style={{marginLeft:"10px"}}></i>                 
+                        </NavLink>
+                        <NavLink href='#' className='has-mega-menu'>Audio<i class="fa-solid fa-chevron-down"style={{marginLeft:"10px"}}></i></NavLink>
+                        <NavLink href='#'>Shop<i class="fa-solid fa-chevron-down"style={{marginLeft:"10px"}}></i></NavLink>
                         <NavLink href='#'>Pages</NavLink>
                         <input type='type' placeholder="Search"className='search'></input><a href='#' className='icon'><i class="fa-solid fa-magnifying-glass"></i><i class="fa-solid fa-cart-shopping"></i></a>
                     </Nav>

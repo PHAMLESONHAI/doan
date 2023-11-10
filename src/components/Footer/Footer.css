@@ -6,15 +6,16 @@
     font-family: 'Poppins', sans-serif;
     
 }
-
+body{
+    background-color: #3b3b3b;
+    color: #fff;
+}
 .footer .row {
     
     margin-right: -15px;
     margin-left: -15px;
 }
-.footer .first{
-    margin-left: 20px;
-}
+
 .footer .first .logo1{
     display: flex;
     align-items: center;
@@ -27,7 +28,7 @@
 .footer .first h1{
     font-size: 30px;
     text-transform: uppercase;
-    color: #333;
+    color: #fff;
 }
 .footer .first .logo1 img{
     width: 120px;
@@ -43,7 +44,7 @@
     color: #d96a77;
 }
 .footer .first .click:hover{
-    color: #333;
+    color: #fff;
 }
 .footer .footer-box ul{
     list-style: none;
@@ -59,11 +60,11 @@
     margin-top: 10px;
 }
 .footer .footer-box ul li{
-    color: #888;
+    color: #fff;
 }
 .footer .footer-box ul li a{
     text-decoration: none;
-    color: #888;
+    color: #fff;
     font-size: 14px;
 }
 .footer .footer-box ul li a:hover{
@@ -82,6 +83,9 @@
 .footer .icon1 .row{
     margin-top: 30px;
 }
+.icon1 .left{
+    padding: 0;
+}
 .footer .left .sub-left i{
     width: 35px;
     height: 35px;
@@ -89,7 +93,7 @@
     line-height: 32px;
     border: 1px solid #888;
     border-radius: 50%;
-    color: #888;
+    color: #fff;
 }
 .footer .icon1 .subleft{
     margin-right: 20px;
@@ -110,13 +114,14 @@
 }
 .footer1 .left .copyright {
     text-transform: uppercase;
-    font-size: 14px;
-    
+    font-size: 11px;
+    margin-right: 10px;
 }
 .footer1 .left .copyright a{
     text-decoration: none;
     color: #d96a77;
     font-size: 14px;
+    margin: 0;
 }
 .footer1 .footermenu{
     display: flex;
@@ -129,10 +134,44 @@
 }
 .footer1 .footermenu a{
     text-decoration: none;
-    color: #333;
+    color: #fff;
 }
 .footer1 .footermenu a:hover{
     text-decoration: none;
     color: #d96a77;
 }
 
+
+@media only screen and (max-width:992px){
+
+    .footer .first .logo1 {
+        flex-direction: column;
+        
+
+    }
+}
+@media only screen and (max-width:767.13px){
+
+    .footer .first .logo1 {
+       flex-direction: row;
+
+    }
+    .footer .footer-box ul {
+        padding: 0;
+    }
+    .footer1 .left {
+        flex-wrap: wrap;
+    }
+    .footer1 .footermenu {
+        padding: 0;
+    }
+    .footer1 .footermenu li {
+        margin: 0;
+    }
+    
+
+.footer .footer-box p {
+    font-weight: 600;
+    margin-top: 30px;
+}
+}

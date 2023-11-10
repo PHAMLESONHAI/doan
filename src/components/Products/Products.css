@@ -22,7 +22,7 @@
     width: 100%;
     backdrop-filter: blur(10px);
     border-radius: 10px 10px 0 0;
-        
+
 }
 .carousel-caption >h3{
     font-weight: 700;
@@ -33,4 +33,33 @@
 }
 .carousel-indicators{
     display: none;
+}
+.content-shop {
+    padding: 30px 0 50px;
+}
+.sort-pagibar {
+    margin: -5px 0 10px;
+}
+.view-type > label {
+    color: #888;
+    margin: 0 15px 0 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.view-type a {
+    color: #888;
+    display: inline-block;
+    font-size: 30px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.lnr {
+    font-family: 'Linearicons';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
