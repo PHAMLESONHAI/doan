@@ -37,7 +37,7 @@ export default function Header() {
     const toggle2 = () => setOn2(!on2);
     const toggle3 = () => setOn3(!on3);
     return (
-        
+
         <div className='header' >
             <a href='#' className='logo'>  <img src={img1}></img><h1 > SoundG</h1></a>
             <button className='toggle' onClick={handle_toggle}>
@@ -48,24 +48,26 @@ export default function Header() {
                     <li><a href='#'>Home</a></li>
                     <li><a href='#'>Accessories</a></li>
                     <li><a href='#' onClick={toggle1} >
-                        Headphones<i class="fa-solid fa-chevron-down" style={{marginLeft:"10px"}}></i>
+                        Headphones<i class="fa-solid fa-chevron-down" ></i>
                     </a></li>
                     <Collapse className='dropdown' isOpen={on1}>
-                                    home
+                        home
                     </Collapse>
                     <li><a href='#' onClick={toggle2} >
-                        Audio<i class="fa-solid fa-chevron-down" style={{marginLeft:"10px"}}></i>
+                        Audio<i class="fa-solid fa-chevron-down" ></i>
                     </a></li>
-                    <Collapse className='dropdown'isOpen={on2}>
-                                    home
+                    <Collapse className='dropdown' isOpen={on2}>
+                        home
                     </Collapse>
                     <li><a href='#' onClick={toggle3} >
-                        Shop<i class="fa-solid fa-chevron-down" style={{marginLeft:"10px"}}></i>
+                        Shop<i class="fa-solid fa-chevron-down" ></i>
                     </a></li>
-                    <Collapse className='dropdown'isOpen={on3}>
-                                    home
+                    <Collapse className='dropdown' isOpen={on3}>
+                        home
                     </Collapse>
-                     <li><a href='#'>Pages</a></li>
+                    <li><a href='#'>Pages</a></li>
+                    <input type='type' placeholder="Search" className='search'></input><a href='#' className='icon'><i class="fa-solid fa-magnifying-glass"></i><i class="fa-solid fa-cart-shopping"></i></a>
+
                 </ul>
                 <button className='close' onClick={handle_toggle}>X</button>
             </div>
@@ -75,12 +77,38 @@ export default function Header() {
                     <Nav navbar >
                         <NavLink href='#'>Home</NavLink>
                         <NavLink href="#">Accessories</NavLink>
-                        <NavLink href="#" >Headphones<i class="fa-solid fa-chevron-down" style={{marginLeft:"10px"}}></i>                 
-                        </NavLink>
-                        <NavLink href='#' className='has-mega-menu'>Audio<i class="fa-solid fa-chevron-down"style={{marginLeft:"10px"}}></i></NavLink>
-                        <NavLink href='#'>Shop<i class="fa-solid fa-chevron-down"style={{marginLeft:"10px"}}></i></NavLink>
-                        <NavLink href='#'>Pages</NavLink>
-                        <input type='type' placeholder="Search"className='search'></input><a href='#' className='icon'><i class="fa-solid fa-magnifying-glass"></i><i class="fa-solid fa-cart-shopping"></i></a>
+                        <UncontrolledDropdown nav inNavbar className='dropdown-box'>
+                            <DropdownToggle nav >
+                                Headphones<i class="fa-solid fa-chevron-down"></i>
+                            </DropdownToggle >
+                            <DropdownMenu right className='dropdown-box1'>
+                                <DropdownItem>Samsung</DropdownItem>
+                                <DropdownItem>Apple</DropdownItem>
+                                <DropdownItem>Marshall</DropdownItem>
+                                <DropdownItem>Sony</DropdownItem>
+                            </DropdownMenu>
+                        </UncontrolledDropdown>
+                        <UncontrolledDropdown nav inNavbar className='dropdown-box'>
+                            <DropdownToggle nav >
+                                Audio<i class="fa-solid fa-chevron-down"></i>
+                            </DropdownToggle>
+                            <DropdownMenu right className='dropdown-box1'>
+                                <DropdownItem>Samsung</DropdownItem>
+                                <DropdownItem>Apple</DropdownItem>
+                                <DropdownItem>Marshall</DropdownItem>
+                                <DropdownItem>Sony</DropdownItem>
+                            </DropdownMenu>
+                        </UncontrolledDropdown>
+                        <UncontrolledDropdown nav inNavbar className='dropdown-box'>
+                            <DropdownToggle nav >
+                                Shop<i class="fa-solid fa-chevron-down"></i>
+                            </DropdownToggle>
+                            <DropdownMenu right className='dropdown-box1'>
+                                <DropdownItem>List View</DropdownItem>
+                                <DropdownItem>List Favourite</DropdownItem>
+                            </DropdownMenu>
+                        </UncontrolledDropdown>                        <NavLink href='#'>Pages</NavLink>
+                        <input type='type' placeholder="Search" className='search'></input><a href='#' className='icon'><i class="fa-solid fa-magnifying-glass"></i><i class="fa-solid fa-cart-shopping"></i></a>
                     </Nav>
                 </Collapse>
             </Navbar>

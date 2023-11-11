@@ -10,7 +10,8 @@ import img6 from"../../img/logobank (5).png"
 export default function Footer() {
     return (
         <div>
-            <Container className="footer">
+            <div className="footer">
+                <Container>
                 <div className="row">
                     <div className=" col-md-3 col-sm-6 col-ms-12">
                         <div className="first">
@@ -91,7 +92,8 @@ export default function Footer() {
                     </div>
                 </div>
                 </div>
-            </Container>
+                </Container>
+            </div>
         </div>
     )
 }

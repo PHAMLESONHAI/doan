@@ -108,7 +108,7 @@ export default function Products() {
       <Container className="content-shop">
         <div className="main-content-shop">
           <div className="sort-pagibar">
-            <Row>
+            <Row className="content-shop1">
               <Col sm="6" md="4" lg="3">
                 <div className="view-type">
                   <label>View</label>
@@ -117,126 +117,150 @@ export default function Products() {
                   </a>
                   <a href="#" className="list-type active">
                     <i class="fa-solid fa-list-ul"></i>
-                    </a>
+                  </a>
+                </div>
+              </Col>
+              <Col sm="6" md="4" lg="3">
+                <div className="wrap-pagibar">
+                  <div className="tool-box per-page-box">
+                    <label>show</label>
+                    <select className="select-box">
+                      <option value="9">9</option>
+                      <option value="12">12</option>
+                      <option value="15">15</option>
+                      <option value="18">18</option>
+                    </select>
+                  </div>
+                  <div className="tool-box sort-box">
+                  <label>sort by</label>
+                    <select className="select-box">
+                      <option value="name">name</option>
+                      <option value="price">price</option>
+                    </select>
+                  </div>
+                  <div className="tool-box showing-box">
+                    <label>showing</label>
+                    <span>1 to 9 of 20 total</span>
+                  </div>
                 </div>
               </Col>
             </Row>
           </div>
           <div className="content-product-list">
-          <Row className="list-product grid-view">
-            <Col sm="6" md="4" lg="3">
-              <div>
-                <Card >
-                  <img alt="Sample" src="https://demo.7uptheme.net/html/necshop/images/photos/5.jpg" />
-                  <CardBody>
-                    <CardTitle tag="h5">Card title</CardTitle>
-                    <CardSubtitle className="mb-2 text-muted" tag="h6">Card subtitle</CardSubtitle>
-                    <CardText> Some quick example text to build on the card title and make up the bulk of the card‘s content.</CardText>
-                    <Button>Button</Button>
-                  </CardBody>
-                </Card>
-              </div>
-            </Col>
+            <Row className="list-product grid-view">
+              <Col sm="6" md="4" lg="3">
+                <div>
+                  <Card >
+                    <img alt="Sample" src="https://demo.7uptheme.net/html/necshop/images/photos/5.jpg" />
+                    <CardBody>
+                      <CardTitle tag="h5">Card title</CardTitle>
+                      <CardSubtitle className="mb-2 text-muted" tag="h6">Card subtitle</CardSubtitle>
+                      <CardText> Some quick example text to build on the card title and make up the bulk of the card‘s content.</CardText>
+                      <Button>Button</Button>
+                    </CardBody>
+                  </Card>
+                </div>
+              </Col>
 
-            <Col sm="6" md="4" lg="3">
-              <div>
-                <Card >
-                  <img alt="Sample" src="https://demo.7uptheme.net/html/necshop/images/photos/17.jpg" />
-                  <CardBody>
-                    <CardTitle tag="h5">Card title</CardTitle>
-                    <CardSubtitle className="mb-2 text-muted" tag="h6">Card subtitle</CardSubtitle>
-                    <CardText> Some quick example text to build on the card title and make up the bulk of the card‘s content.</CardText>
-                    <Button>Button</Button>
-                  </CardBody>
-                </Card>
-              </div>
-            </Col>
+              <Col sm="6" md="4" lg="3">
+                <div>
+                  <Card >
+                    <img alt="Sample" src="https://demo.7uptheme.net/html/necshop/images/photos/17.jpg" />
+                    <CardBody>
+                      <CardTitle tag="h5">Card title</CardTitle>
+                      <CardSubtitle className="mb-2 text-muted" tag="h6">Card subtitle</CardSubtitle>
+                      <CardText> Some quick example text to build on the card title and make up the bulk of the card‘s content.</CardText>
+                      <Button>Button</Button>
+                    </CardBody>
+                  </Card>
+                </div>
+              </Col>
 
-            <Col sm="6" md="4" lg="3">
-              <div>
-                <Card >
-                  <img alt="Sample" src="https://demo.7uptheme.net/html/necshop/images/photos/4.jpg" />
-                  <CardBody>
-                    <CardTitle tag="h5">Card title</CardTitle>
-                    <CardSubtitle className="mb-2 text-muted" tag="h6">Card subtitle</CardSubtitle>
-                    <CardText> Some quick example text to build on the card title and make up the bulk of the card‘s content.</CardText>
-                    <Button>Button</Button>
-                  </CardBody>
-                </Card>
-              </div>
-            </Col>
+              <Col sm="6" md="4" lg="3">
+                <div>
+                  <Card >
+                    <img alt="Sample" src="https://demo.7uptheme.net/html/necshop/images/photos/4.jpg" />
+                    <CardBody>
+                      <CardTitle tag="h5">Card title</CardTitle>
+                      <CardSubtitle className="mb-2 text-muted" tag="h6">Card subtitle</CardSubtitle>
+                      <CardText> Some quick example text to build on the card title and make up the bulk of the card‘s content.</CardText>
+                      <Button>Button</Button>
+                    </CardBody>
+                  </Card>
+                </div>
+              </Col>
 
-            <Col sm="6" md="4" lg="3">
-              <div>
-                <Card >
-                  <img alt="Sample" src="https://demo.7uptheme.net/html/necshop/images/photos/24.jpg" />
-                  <CardBody>
-                    <CardTitle tag="h5">Card title</CardTitle>
-                    <CardSubtitle className="mb-2 text-muted" tag="h6">Card subtitle</CardSubtitle>
-                    <CardText> Some quick example text to build on the card title and make up the bulk of the card‘s content.</CardText>
-                    <Button>Button</Button>
-                  </CardBody>
-                </Card>
-              </div>
-            </Col>
+              <Col sm="6" md="4" lg="3">
+                <div>
+                  <Card >
+                    <img alt="Sample" src="https://demo.7uptheme.net/html/necshop/images/photos/24.jpg" />
+                    <CardBody>
+                      <CardTitle tag="h5">Card title</CardTitle>
+                      <CardSubtitle className="mb-2 text-muted" tag="h6">Card subtitle</CardSubtitle>
+                      <CardText> Some quick example text to build on the card title and make up the bulk of the card‘s content.</CardText>
+                      <Button>Button</Button>
+                    </CardBody>
+                  </Card>
+                </div>
+              </Col>
 
-            <Col sm="6" md="4" lg="3">
-              <div>
-                <Card >
+              <Col sm="6" md="4" lg="3">
+                <div>
+                  <Card >
 
-                <img alt="Sample" src="https://demo.7uptheme.net/html/necshop/images/photos/24.jpg" />
-                  <CardBody>
-                    <CardTitle tag="h5">Card title</CardTitle>
-                    <CardSubtitle className="mb-2 text-muted" tag="h6">Card subtitle</CardSubtitle>
-                    <CardText> Some quick example text to build on the card title and make up the bulk of the card‘s content.</CardText>
-                    <Button>Button</Button>
-                  </CardBody>
-                </Card>
-              </div>
-            </Col>
-            
-            <Col sm="6" md="4" lg="3">
-              <div>
-                <Card >
-                  <img alt="Sample" src="https://demo.7uptheme.net/html/necshop/images/photos/24.jpg" />
-                  <CardBody>
-                    <CardTitle tag="h5">Card title</CardTitle>
-                    <CardSubtitle className="mb-2 text-muted" tag="h6">Card subtitle</CardSubtitle>
-                    <CardText> Some quick example text to build on the card title and make up the bulk of the card‘s content.</CardText>
-                    <Button>Button</Button>
-                  </CardBody>
-                </Card>
-              </div>
-            </Col>
+                    <img alt="Sample" src="https://demo.7uptheme.net/html/necshop/images/photos/24.jpg" />
+                    <CardBody>
+                      <CardTitle tag="h5">Card title</CardTitle>
+                      <CardSubtitle className="mb-2 text-muted" tag="h6">Card subtitle</CardSubtitle>
+                      <CardText> Some quick example text to build on the card title and make up the bulk of the card‘s content.</CardText>
+                      <Button>Button</Button>
+                    </CardBody>
+                  </Card>
+                </div>
+              </Col>
 
-            <Col sm="6" md="4" lg="3">
-              <div>
-                <Card >
-                  <img alt="Sample" src="https://demo.7uptheme.net/html/necshop/images/photos/24.jpg" />
-                  <CardBody>
-                    <CardTitle tag="h5">Card title</CardTitle>
-                    <CardSubtitle className="mb-2 text-muted" tag="h6">Card subtitle</CardSubtitle>
-                    <CardText> Some quick example text to build on the card title and make up the bulk of the card‘s content.</CardText>
-                    <Button>Button</Button>
-                  </CardBody>
-                </Card>
-              </div>
-            </Col>
+              <Col sm="6" md="4" lg="3">
+                <div>
+                  <Card >
+                    <img alt="Sample" src="https://demo.7uptheme.net/html/necshop/images/photos/24.jpg" />
+                    <CardBody>
+                      <CardTitle tag="h5">Card title</CardTitle>
+                      <CardSubtitle className="mb-2 text-muted" tag="h6">Card subtitle</CardSubtitle>
+                      <CardText> Some quick example text to build on the card title and make up the bulk of the card‘s content.</CardText>
+                      <Button>Button</Button>
+                    </CardBody>
+                  </Card>
+                </div>
+              </Col>
 
-            <Col sm="6" md="4" lg="3">
-              <div>
-                <Card >
-                  <img alt="Sample" src="https://demo.7uptheme.net/html/necshop/images/photos/24.jpg" />
-                  <CardBody>
-                    <CardTitle tag="h5">Card title</CardTitle>
-                    <CardSubtitle className="mb-2 text-muted" tag="h6">Card subtitle</CardSubtitle>
-                    <CardText> Some quick example text to build on the card title and make up the bulk of the card‘s content.</CardText>
-                    <Button>Button</Button>
-                  </CardBody>
-                </Card>
-              </div>
-            </Col>
-          </Row>
+              <Col sm="6" md="4" lg="3">
+                <div>
+                  <Card >
+                    <img alt="Sample" src="https://demo.7uptheme.net/html/necshop/images/photos/24.jpg" />
+                    <CardBody>
+                      <CardTitle tag="h5">Card title</CardTitle>
+                      <CardSubtitle className="mb-2 text-muted" tag="h6">Card subtitle</CardSubtitle>
+                      <CardText> Some quick example text to build on the card title and make up the bulk of the card‘s content.</CardText>
+                      <Button>Button</Button>
+                    </CardBody>
+                  </Card>
+                </div>
+              </Col>
+
+              <Col sm="6" md="4" lg="3">
+                <div>
+                  <Card >
+                    <img alt="Sample" src="https://demo.7uptheme.net/html/necshop/images/photos/24.jpg" />
+                    <CardBody>
+                      <CardTitle tag="h5">Card title</CardTitle>
+                      <CardSubtitle className="mb-2 text-muted" tag="h6">Card subtitle</CardSubtitle>
+                      <CardText> Some quick example text to build on the card title and make up the bulk of the card‘s content.</CardText>
+                      <Button>Button</Button>
+                    </CardBody>
+                  </Card>
+                </div>
+              </Col>
+            </Row>
           </div>
         </div>
       </Container>
