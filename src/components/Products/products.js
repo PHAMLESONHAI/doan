@@ -109,18 +109,18 @@ export default function Products() {
         <div className="main-content-shop">
           <div className="sort-pagibar">
             <Row className="content-shop1">
-              <Col sm="6" md="4" lg="3">
+              <Col md="3" sm="12" xs="12">
                 <div className="view-type">
                   <label>View</label>
                   <a href="#" className="grid-type active">
-                    <i class="fa-solid fa-dice-six"></i>
+                    <i class="fa-solid fa-dice-six fa-flip-both fa-sm"></i>
                   </a>
                   <a href="#" className="list-type active">
-                    <i class="fa-solid fa-list-ul"></i>
+                    <i class="fa-solid fa-list-ul fa-sm"></i>
                   </a>
                 </div>
               </Col>
-              <Col sm="6" md="4" lg="3">
+              <Col md="9" sm="12" xs="12">
                 <div className="wrap-pagibar">
                   <div className="tool-box per-page-box">
                     <label>show</label>
@@ -132,7 +132,7 @@ export default function Products() {
                     </select>
                   </div>
                   <div className="tool-box sort-box">
-                  <label>sort by</label>
+                    <label>sort by</label>
                     <select className="select-box">
                       <option value="name">name</option>
                       <option value="price">price</option>
@@ -148,10 +148,26 @@ export default function Products() {
           </div>
           <div className="content-product-list">
             <Row className="list-product grid-view">
-              <Col sm="6" md="4" lg="3">
-                <div>
+              <Col md="3" sm="4" xs="12">
+                <div className="product-item">
                   <Card >
-                    <img alt="Sample" src="https://demo.7uptheme.net/html/necshop/images/photos/5.jpg" />
+                    <div className="product-thumb">
+                      <a href="#" className="product-thumb-link"><img alt="Sample" src="https://demo.7uptheme.net/html/necshop/images/photos/5.jpg" /></a>
+                      <div className="product-more-link">
+                        <a class="addcart-link" href="#">
+                        <span><i class="fa-solid fa-cart-shopping"></i></span>
+                          <span>Add to cart</span></a>
+                        <a class="addcart-link" href="#">
+                         <span><i class="fa-solid fa-heart"></i></span>
+                          <span>Add to wishlist</span></a>
+                        <a class="addcart-link" href="#">
+                        <span><i class="fa-solid fa-paw"></i></span>
+                          <span>Add to Compare</span></a>
+                        <a class="addcart-link" href="#">
+                          <span><i class="fa-solid fa-eye"></i></span>
+                          <span>Quick view</span></a>
+                      </div>
+                    </div>
                     <CardBody>
                       <CardTitle tag="h5">Card title</CardTitle>
                       <CardSubtitle className="mb-2 text-muted" tag="h6">Card subtitle</CardSubtitle>
@@ -162,10 +178,26 @@ export default function Products() {
                 </div>
               </Col>
 
-              <Col sm="6" md="4" lg="3">
-                <div>
+              <Col md="3" sm="4" xs="12">
+                <div className="product-item">
                   <Card >
-                    <img alt="Sample" src="https://demo.7uptheme.net/html/necshop/images/photos/17.jpg" />
+                    <div className="product-thumb">
+                      <a href="#" className="product-thumb-link"><img alt="Sample" src="https://demo.7uptheme.net/html/necshop/images/photos/5.jpg" /></a>
+                      <div className="product-more-link">
+                        <a class="addcart-link" href="#">
+                          <i class="fa-solid fa-cart-shopping"></i>
+                          <span>Add to cart</span></a>
+                        <a class="addcart-link" href="#">
+                          <i class="fa-solid fa-heart"></i>
+                          <span>Add to wishlist</span></a>
+                        <a class="addcart-link" href="#">
+                          <i class="fa-solid fa-paw"></i>
+                          <span>Add to Compare</span></a>
+                        <a class="addcart-link" href="#">
+                          <i class="fa-solid fa-eye"></i>
+                          <span>Quick view</span></a>
+                      </div>
+                    </div>
                     <CardBody>
                       <CardTitle tag="h5">Card title</CardTitle>
                       <CardSubtitle className="mb-2 text-muted" tag="h6">Card subtitle</CardSubtitle>
@@ -176,10 +208,26 @@ export default function Products() {
                 </div>
               </Col>
 
-              <Col sm="6" md="4" lg="3">
-                <div>
+              <Col md="3" sm="4" xs="12">
+                <div className="product-item">
                   <Card >
-                    <img alt="Sample" src="https://demo.7uptheme.net/html/necshop/images/photos/4.jpg" />
+                    <div className="product-thumb">
+                      <a href="#" className="product-thumb-link"><img alt="Sample" src="https://demo.7uptheme.net/html/necshop/images/photos/5.jpg" /></a>
+                      <div className="product-more-link">
+                        <a class="addcart-link" href="#">
+                          <i class="fa-solid fa-cart-shopping"></i>
+                          <span>Add to cart</span></a>
+                        <a class="addcart-link" href="#">
+                          <i class="fa-solid fa-heart"></i>
+                          <span>Add to wishlist</span></a>
+                        <a class="addcart-link" href="#">
+                          <i class="fa-solid fa-paw"></i>
+                          <span>Add to Compare</span></a>
+                        <a class="addcart-link" href="#">
+                          <i class="fa-solid fa-eye"></i>
+                          <span>Quick view</span></a>
+                      </div>
+                    </div>
                     <CardBody>
                       <CardTitle tag="h5">Card title</CardTitle>
                       <CardSubtitle className="mb-2 text-muted" tag="h6">Card subtitle</CardSubtitle>
@@ -190,10 +238,26 @@ export default function Products() {
                 </div>
               </Col>
 
-              <Col sm="6" md="4" lg="3">
-                <div>
+              <Col md="3" sm="4" xs="12">
+                <div className="product-item">
                   <Card >
-                    <img alt="Sample" src="https://demo.7uptheme.net/html/necshop/images/photos/24.jpg" />
+                    <div className="product-thumb">
+                      <a href="#" className="product-thumb-link"><img alt="Sample" src="https://demo.7uptheme.net/html/necshop/images/photos/5.jpg" /></a>
+                      <div className="product-more-link">
+                        <a class="addcart-link" href="#">
+                          <i class="fa-solid fa-cart-shopping"></i>
+                          <span>Add to cart</span></a>
+                        <a class="addcart-link" href="#">
+                          <i class="fa-solid fa-heart"></i>
+                          <span>Add to wishlist</span></a>
+                        <a class="addcart-link" href="#">
+                          <i class="fa-solid fa-paw"></i>
+                          <span>Add to Compare</span></a>
+                        <a class="addcart-link" href="#">
+                          <i class="fa-solid fa-eye"></i>
+                          <span>Quick view</span></a>
+                      </div>
+                    </div>
                     <CardBody>
                       <CardTitle tag="h5">Card title</CardTitle>
                       <CardSubtitle className="mb-2 text-muted" tag="h6">Card subtitle</CardSubtitle>
@@ -204,11 +268,26 @@ export default function Products() {
                 </div>
               </Col>
 
-              <Col sm="6" md="4" lg="3">
-                <div>
+              <Col md="3" sm="4" xs="12">
+                <div className="product-item">
                   <Card >
-
-                    <img alt="Sample" src="https://demo.7uptheme.net/html/necshop/images/photos/24.jpg" />
+                    <div className="product-thumb">
+                      <a href="#" className="product-thumb-link"><img alt="Sample" src="https://demo.7uptheme.net/html/necshop/images/photos/5.jpg" /></a>
+                      <div className="product-more-link">
+                        <a class="addcart-link" href="#">
+                          <i class="fa-solid fa-cart-shopping"></i>
+                          <span>Add to cart</span></a>
+                        <a class="addcart-link" href="#">
+                          <i class="fa-solid fa-heart"></i>
+                          <span>Add to wishlist</span></a>
+                        <a class="addcart-link" href="#">
+                          <i class="fa-solid fa-paw"></i>
+                          <span>Add to Compare</span></a>
+                        <a class="addcart-link" href="#">
+                          <i class="fa-solid fa-eye"></i>
+                          <span>Quick view</span></a>
+                      </div>
+                    </div>
                     <CardBody>
                       <CardTitle tag="h5">Card title</CardTitle>
                       <CardSubtitle className="mb-2 text-muted" tag="h6">Card subtitle</CardSubtitle>
@@ -219,10 +298,26 @@ export default function Products() {
                 </div>
               </Col>
 
-              <Col sm="6" md="4" lg="3">
-                <div>
+              <Col md="3" sm="4" xs="12">
+                <div className="product-item">
                   <Card >
-                    <img alt="Sample" src="https://demo.7uptheme.net/html/necshop/images/photos/24.jpg" />
+                    <div className="product-thumb">
+                      <a href="#" className="product-thumb-link"><img alt="Sample" src="https://demo.7uptheme.net/html/necshop/images/photos/5.jpg" /></a>
+                      <div className="product-more-link">
+                        <a class="addcart-link" href="#">
+                          <i class="fa-solid fa-cart-shopping"></i>
+                          <span>Add to cart</span></a>
+                        <a class="addcart-link" href="#">
+                          <i class="fa-solid fa-heart"></i>
+                          <span>Add to wishlist</span></a>
+                        <a class="addcart-link" href="#">
+                          <i class="fa-solid fa-paw"></i>
+                          <span>Add to Compare</span></a>
+                        <a class="addcart-link" href="#">
+                          <i class="fa-solid fa-eye"></i>
+                          <span>Quick view</span></a>
+                      </div>
+                    </div>
                     <CardBody>
                       <CardTitle tag="h5">Card title</CardTitle>
                       <CardSubtitle className="mb-2 text-muted" tag="h6">Card subtitle</CardSubtitle>
@@ -233,10 +328,26 @@ export default function Products() {
                 </div>
               </Col>
 
-              <Col sm="6" md="4" lg="3">
-                <div>
+              <Col md="3" sm="4" xs="12">
+                <div className="product-item">
                   <Card >
-                    <img alt="Sample" src="https://demo.7uptheme.net/html/necshop/images/photos/24.jpg" />
+                    <div className="product-thumb">
+                      <a href="#" className="product-thumb-link"><img alt="Sample" src="https://demo.7uptheme.net/html/necshop/images/photos/5.jpg" /></a>
+                      <div className="product-more-link">
+                        <a class="addcart-link" href="#">
+                          <i class="fa-solid fa-cart-shopping"></i>
+                          <span>Add to cart</span></a>
+                        <a class="addcart-link" href="#">
+                          <i class="fa-solid fa-heart"></i>
+                          <span>Add to wishlist</span></a>
+                        <a class="addcart-link" href="#">
+                          <i class="fa-solid fa-paw"></i>
+                          <span>Add to Compare</span></a>
+                        <a class="addcart-link" href="#">
+                          <i class="fa-solid fa-eye"></i>
+                          <span>Quick view</span></a>
+                      </div>
+                    </div>
                     <CardBody>
                       <CardTitle tag="h5">Card title</CardTitle>
                       <CardSubtitle className="mb-2 text-muted" tag="h6">Card subtitle</CardSubtitle>
@@ -247,10 +358,26 @@ export default function Products() {
                 </div>
               </Col>
 
-              <Col sm="6" md="4" lg="3">
-                <div>
+              <Col md="3" sm="4" xs="12">
+                <div className="product-item">
                   <Card >
-                    <img alt="Sample" src="https://demo.7uptheme.net/html/necshop/images/photos/24.jpg" />
+                    <div className="product-thumb">
+                      <a href="#" className="product-thumb-link"><img alt="Sample" src="https://demo.7uptheme.net/html/necshop/images/photos/5.jpg" /></a>
+                      <div className="product-more-link">
+                        <a class="addcart-link" href="#">
+                          <i class="fa-solid fa-cart-shopping"></i>
+                          <span>Add to cart</span></a>
+                        <a class="addcart-link" href="#">
+                          <i class="fa-solid fa-heart"></i>
+                          <span>Add to wishlist</span></a>
+                        <a class="addcart-link" href="#">
+                          <i class="fa-solid fa-paw"></i>
+                          <span>Add to Compare</span></a>
+                        <a class="addcart-link" href="#">
+                          <i class="fa-solid fa-eye"></i>
+                          <span>Quick view</span></a>
+                      </div>
+                    </div>
                     <CardBody>
                       <CardTitle tag="h5">Card title</CardTitle>
                       <CardSubtitle className="mb-2 text-muted" tag="h6">Card subtitle</CardSubtitle>

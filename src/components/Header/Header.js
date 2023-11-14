@@ -51,7 +51,7 @@ export default function Header() {
                         Headphones<i class="fa-solid fa-chevron-down" ></i>
                     </a></li>
                     <Collapse className='dropdown' isOpen={on1}>
-                        home
+                        Home
                     </Collapse>
                     <li><a href='#' onClick={toggle2} >
                         Audio<i class="fa-solid fa-chevron-down" ></i>
