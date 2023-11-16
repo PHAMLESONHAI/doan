@@ -148,37 +148,7 @@ export default function Products() {
           </div>
           <div className="content-product-list">
             <Row className="list-product grid-view">
-              <Col md="3" sm="4" xs="12">
-                <div className="product-item">
-                  <Card >
-                    <div className="product-thumb">
-                      <a href="#" className="product-thumb-link"><img alt="Sample" src="https://demo.7uptheme.net/html/necshop/images/photos/5.jpg" /></a>
-                      <div className="product-more-link">
-                        <a class="addcart-link" href="#">
-                        <span><i class="fa-solid fa-cart-shopping"></i></span>
-                          <span>Add to cart</span></a>
-                        <a class="addcart-link" href="#">
-                         <span><i class="fa-solid fa-heart"></i></span>
-                          <span>Add to wishlist</span></a>
-                        <a class="addcart-link" href="#">
-                        <span><i class="fa-solid fa-paw"></i></span>
-                          <span>Add to Compare</span></a>
-                        <a class="addcart-link" href="#">
-                          <span><i class="fa-solid fa-eye"></i></span>
-                          <span>Quick view</span></a>
-                      </div>
-                    </div>
-                    <CardBody>
-                      <CardTitle tag="h5">Card title</CardTitle>
-                      <CardSubtitle className="mb-2 text-muted" tag="h6">Card subtitle</CardSubtitle>
-                      <CardText> Some quick example text to build on the card title and make up the bulk of the card‘s content.</CardText>
-                      <Button>Button</Button>
-                    </CardBody>
-                  </Card>
-                </div>
-              </Col>
-
-              <Col md="3" sm="4" xs="12">
+            <Col md="3" sm="6" xs="12">
                 <div className="product-item">
                   <Card >
                     <div className="product-thumb">
@@ -199,16 +169,15 @@ export default function Products() {
                       </div>
                     </div>
                     <CardBody>
-                      <CardTitle tag="h5">Card title</CardTitle>
-                      <CardSubtitle className="mb-2 text-muted" tag="h6">Card subtitle</CardSubtitle>
-                      <CardText> Some quick example text to build on the card title and make up the bulk of the card‘s content.</CardText>
-                      <Button>Button</Button>
+                      <CardTitle tag="h5">NOISE CANCELLATION</CardTitle>
+                      <CardSubtitle className="mb-2 text-muted" tag="h6"><span className="pricev1"><span className="pricev1">$300</span></span> <span className="price">$409</span></CardSubtitle>
                     </CardBody>
                   </Card>
                 </div>
               </Col>
 
-              <Col md="3" sm="4" xs="12">
+
+              <Col md="3" sm="6" xs="12">
                 <div className="product-item">
                   <Card >
                     <div className="product-thumb">
@@ -229,16 +198,14 @@ export default function Products() {
                       </div>
                     </div>
                     <CardBody>
-                      <CardTitle tag="h5">Card title</CardTitle>
-                      <CardSubtitle className="mb-2 text-muted" tag="h6">Card subtitle</CardSubtitle>
-                      <CardText> Some quick example text to build on the card title and make up the bulk of the card‘s content.</CardText>
-                      <Button>Button</Button>
+                      <CardTitle tag="h5">NOISE CANCELLATION</CardTitle>
+                      <CardSubtitle className="mb-2 text-muted" tag="h6"><span className="pricev1">$300</span> <span className="price">$409</span></CardSubtitle>
                     </CardBody>
                   </Card>
                 </div>
               </Col>
 
-              <Col md="3" sm="4" xs="12">
+              <Col md="3" sm="6" xs="12">
                 <div className="product-item">
                   <Card >
                     <div className="product-thumb">
@@ -259,16 +226,14 @@ export default function Products() {
                       </div>
                     </div>
                     <CardBody>
-                      <CardTitle tag="h5">Card title</CardTitle>
-                      <CardSubtitle className="mb-2 text-muted" tag="h6">Card subtitle</CardSubtitle>
-                      <CardText> Some quick example text to build on the card title and make up the bulk of the card‘s content.</CardText>
-                      <Button>Button</Button>
+                      <CardTitle tag="h5">NOISE CANCELLATION</CardTitle>
+                      <CardSubtitle className="mb-2 text-muted" tag="h6"><span className="pricev1">$300</span> <span className="price">$409</span></CardSubtitle>
                     </CardBody>
                   </Card>
                 </div>
               </Col>
 
-              <Col md="3" sm="4" xs="12">
+              <Col md="3" sm="6" xs="12">
                 <div className="product-item">
                   <Card >
                     <div className="product-thumb">
@@ -289,16 +254,14 @@ export default function Products() {
                       </div>
                     </div>
                     <CardBody>
-                      <CardTitle tag="h5">Card title</CardTitle>
-                      <CardSubtitle className="mb-2 text-muted" tag="h6">Card subtitle</CardSubtitle>
-                      <CardText> Some quick example text to build on the card title and make up the bulk of the card‘s content.</CardText>
-                      <Button>Button</Button>
+                      <CardTitle tag="h5">NOISE CANCELLATION</CardTitle>
+                      <CardSubtitle className="mb-2 text-muted" tag="h6"><span className="pricev1">$300</span> <span className="price">$409</span></CardSubtitle>
                     </CardBody>
                   </Card>
                 </div>
               </Col>
 
-              <Col md="3" sm="4" xs="12">
+              <Col md="3" sm="6" xs="12">
                 <div className="product-item">
                   <Card >
                     <div className="product-thumb">
@@ -319,16 +282,14 @@ export default function Products() {
                       </div>
                     </div>
                     <CardBody>
-                      <CardTitle tag="h5">Card title</CardTitle>
-                      <CardSubtitle className="mb-2 text-muted" tag="h6">Card subtitle</CardSubtitle>
-                      <CardText> Some quick example text to build on the card title and make up the bulk of the card‘s content.</CardText>
-                      <Button>Button</Button>
+                      <CardTitle tag="h5">NOISE CANCELLATION</CardTitle>
+                      <CardSubtitle className="mb-2 text-muted" tag="h6"><span className="pricev1">$300</span> <span className="price">$409</span></CardSubtitle>
                     </CardBody>
                   </Card>
                 </div>
               </Col>
 
-              <Col md="3" sm="4" xs="12">
+              <Col md="3" sm="6" xs="12">
                 <div className="product-item">
                   <Card >
                     <div className="product-thumb">
@@ -349,16 +310,14 @@ export default function Products() {
                       </div>
                     </div>
                     <CardBody>
-                      <CardTitle tag="h5">Card title</CardTitle>
-                      <CardSubtitle className="mb-2 text-muted" tag="h6">Card subtitle</CardSubtitle>
-                      <CardText> Some quick example text to build on the card title and make up the bulk of the card‘s content.</CardText>
-                      <Button>Button</Button>
+                      <CardTitle tag="h5">NOISE CANCELLATION</CardTitle>
+                      <CardSubtitle className="mb-2 text-muted" tag="h6"><span className="pricev1">$300</span> <span className="price">$409</span></CardSubtitle>
                     </CardBody>
                   </Card>
                 </div>
               </Col>
 
-              <Col md="3" sm="4" xs="12">
+              <Col md="3" sm="6" xs="12">
                 <div className="product-item">
                   <Card >
                     <div className="product-thumb">
@@ -379,10 +338,36 @@ export default function Products() {
                       </div>
                     </div>
                     <CardBody>
-                      <CardTitle tag="h5">Card title</CardTitle>
-                      <CardSubtitle className="mb-2 text-muted" tag="h6">Card subtitle</CardSubtitle>
-                      <CardText> Some quick example text to build on the card title and make up the bulk of the card‘s content.</CardText>
-                      <Button>Button</Button>
+                      <CardTitle tag="h5">NOISE CANCELLATION</CardTitle>
+                      <CardSubtitle className="mb-2 text-muted" tag="h6"><span className="pricev1">$300</span> <span className="price">$409</span></CardSubtitle>
+                    </CardBody>
+                  </Card>
+                </div>
+              </Col>
+
+              <Col md="3" sm="6" xs="12">
+                <div className="product-item">
+                  <Card >
+                    <div className="product-thumb">
+                      <a href="#" className="product-thumb-link"><img alt="Sample" src="https://demo.7uptheme.net/html/necshop/images/photos/5.jpg" /></a>
+                      <div className="product-more-link">
+                        <a class="addcart-link" href="#">
+                          <i class="fa-solid fa-cart-shopping"></i>
+                          <span>Add to cart</span></a>
+                        <a class="addcart-link" href="#">
+                          <i class="fa-solid fa-heart"></i>
+                          <span>Add to wishlist</span></a>
+                        <a class="addcart-link" href="#">
+                          <i class="fa-solid fa-paw"></i>
+                          <span>Add to Compare</span></a>
+                        <a class="addcart-link" href="#">
+                          <i class="fa-solid fa-eye"></i>
+                          <span>Quick view</span></a>
+                      </div>
+                    </div>
+                    <CardBody>
+                      <CardTitle tag="h5">NOISE CANCELLATION</CardTitle>
+                      <CardSubtitle className="mb-2 text-muted" tag="h6"><span className="pricev1">$300</span> <span className="price">$409</span></CardSubtitle>
                     </CardBody>
                   </Card>
                 </div>
