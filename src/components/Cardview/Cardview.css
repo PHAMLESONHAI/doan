@@ -1,4 +1,4 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -44,8 +44,8 @@ body{
     display: none;
 }
 .content-shop {
-    padding: 30px 0 50px;
-  
+    padding: 0 15px;
+    margin-top: 20px;
 }
 .sort-pagibar {
     margin: -5px 0 10px;
@@ -245,6 +245,7 @@ a:hover, a:focus {
 .pricev1{
     color: #d96a77;
 }
+
 @media only screen and (max-width:767px){
     .wrap-pagibar {
       justify-content:flex-start ;
@@ -258,4 +259,4 @@ a:hover, a:focus {
         margin:0 10px;
     }
 }
- */
+

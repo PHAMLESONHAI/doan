@@ -1,11 +1,7 @@
 import { Container } from "reactstrap"
 import img1 from "../../img/logoheadphone.png"
 import "./Footer.css"
-import img2 from"../../img/logobank (1).png"
-import img3 from"../../img/logobank (2).png"
-import img4 from"../../img/logobank (3).png"
-import img5 from"../../img/logobank (4).png"
-import img6 from"../../img/logobank (5).png"
+
 
 export default function Footer() {
     return (
