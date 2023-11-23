@@ -74,36 +74,37 @@ body{
     color: #888;
     
 }
-
+.menu {
+    white-space: nowrap;
+    position: relative;
+}
 .sub-menu{
   position: absolute;
-    top: 100%;
-    left: 205px;
+    top: 105%;
     list-style: none;
     display: none;
     background-color: #1a1a1a;
-    top: 54px;
     border-radius: 10px;
-    width: 14%;
+    width: 100%;
+    padding: 20px;
     margin: 0;
+    transition: all 0.5s ease-out 0s;
 }
 .sub-menu a{
     text-decoration: none;
     color: #888;
 }
 
-.menu:focus .sub-menu{
+.menu:hover .sub-menu{
     display: block;
     position: absolute;
     z-index: 100;
 }
-.menu {
-    white-space: nowrap;
-}
+
 .sub-menu li:hover{
     color: #fff;
 }
-.menu1:focus .sub-menu1{
+.menu1:hover .sub-menu1{
     display: block;
     position: absolute;
     z-index: 100;
@@ -118,19 +119,19 @@ body{
 }
 .menu1{
     white-space: nowrap;
+    position: relative;
 }
 
 .sub-menu1{
-    position: absolute;
-      top: 100%;
-      left: 480px;
+    position: absolute  ;   
       list-style: none;
       display: none;
       background-color: #1a1a1a;
-      top: 54px;
+      top: 105%;
       border-radius: 10px;
-      width: 14%;
+      width: 100%;
       margin: 0;
+      padding: 20px;
   }
   .device{
     white-space: nowrap;
