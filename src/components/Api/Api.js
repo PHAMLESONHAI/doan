@@ -14,12 +14,22 @@ import img8 from"../../img/loa8.webp"
 import img9 from"../../img/loa9.webp"
 import img10 from"../../img/loa10.png"
 import img11 from"../../img/loa11.png"
+import img12 from"../../img/loa12.png"
+import img13 from"../../img/loa13.png"
+import img14 from"../../img/loa14.png"
+import img15 from"../../img/loa15.png"
+import img16 from"../../img/loa16.png"
+import img17 from"../../img/loa17.png"
+import img18 from"../../img/loa18.png"
+import img19 from"../../img/loa19.png"
+import img20 from"../../img/loa20.png"
 
 export default function Api() {
     const url = `https://6525460267cfb1e59ce6fe2b.mockapi.io/Student`
     const [data, setData] = useState([])
     const img = [
-        img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11
+        img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12,img13,
+        img14,img15,img16,img17,img18,img19,img20
     ]
     useEffect(() => {
         axios

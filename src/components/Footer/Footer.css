@@ -7,7 +7,7 @@
     
 }
 .footer{
-    background-color: #3b3b3b;
+    background-color: #1a1a1a;
     color: #fff;
 }
 
@@ -34,7 +34,8 @@
     color: #fff;
 }
 .footer .first .logo1 img{
-    width: 120px;
+    width: 200px;
+    margin-bottom: 20px;
 }
 .footer .first  p{
     text-transform: uppercase;
@@ -171,6 +172,7 @@
     }
     .footer1 .footermenu li {
         margin: 0;
+        padding-right: 15px;
     }
     
 

@@ -1,222 +1,208 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.navbar-nav .dropdown-menu{
-    position: absolute ;
-}
-body {
+body{
     width: 100%;
     height: 100vh;
 }
-
-.menu {
-    font-weight: 600;
+.row{
+    justify-content: space-between;
+    align-items: center;
 }
-
-a {
-    margin-right: 20px;
+.info-header {
+    margin:25px 0;
+    display: flex;
+    
 }
-
-.logo {
+.address-header{
     display: flex;
     align-items: center;
+}
+.address-header>i{
+    font-size: 25px;
+}
+.gps-header{
+    list-style: none;
+    padding: 0 20px;
+    font-size: 16px;
+    margin: 0;
+}
+.gps-header a{
     text-decoration: none;
-    color: #fff;
-
+    color: #888;
+    font-size: 15px;
+    white-space: nowrap;
 }
-.logo img{
-    width: 120px;
+.logo1 img{
+    width: 70%;
 }
-
-.logo h1{
-    margin-top: 10px;
-    font-size: 30px;
+.first p{
+    font-size: 13px;
+    width: 90%;
 }
-.logo:hover {
-    color: #fff;
+.container .left{
+    margin: 0;
 }
-
-.header {
-    position: relative;
-    background-color: #3b3b3b;
+.contact-header{
     display: flex;
-    justify-content: center;
-    height: 150px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    text-transform: uppercase;
-    font-weight: 600;
     align-items: center;
 }
-
-.navbar-light .navbar-nav .nav-link {
+.contact-header i{
+    font-size: 25px;
+}
+.contact-header .phone-header{
+    list-style: none;
+    margin: 0;
+    padding: 0 20px;
+}
+.phone-header a{
+    text-decoration: none;
+    color: #888;
+}
+.navbar{
+    background-color: #1a1a1a;
     color: #fff;
-    margin-left: 13px;
 }
-.navbar-light .navbar-nav .nav-link:hover {
-    color: #d96a77;
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+    font-size: 14px;
+    margin-left: 15px;
 }
-.container-fluid{
-    margin-right: 40px;
-}
-.header .toggle {
-    display: none;
-
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #888;
+    
 }
 
-.header .close {
+.sub-menu{
+  position: absolute;
+    top: 100%;
+    left: 205px;
+    list-style: none;
     display: none;
+    background-color: #1a1a1a;
+    top: 54px;
+    border-radius: 10px;
+    width: 14%;
+    margin: 0;
+}
+.sub-menu a{
+    text-decoration: none;
+    color: #888;
 }
 
-.nav-side ul {
-    display: none;
-}
-.icon{
-    position: relative;
-}
-.icon i{
+.menu:focus .sub-menu{
+    display: block;
     position: absolute;
-    top: 10px;
-    right: 50px;
-    color: #d96a77;
+    z-index: 100;
 }
-.icon i~i {
+.menu {
+    white-space: nowrap;
+}
+.sub-menu li:hover{
+    color: #fff;
+}
+.menu1:focus .sub-menu1{
+    display: block;
     position: absolute;
-    right: 24px;
-    top: 10px;
+    z-index: 100;
+
 }
-.search{
-    border-radius: 5px;
-    background-color: #fff;
-    outline: none;
-    width: 220px;
+.sub-menu1 li:hover{
+    color: #fff;
+}
+.sub-menu1 a{
+    text-decoration: none;
+    color: #888;
+}
+.menu1{
+    white-space: nowrap;
+}
+
+.sub-menu1{
+    position: absolute;
+      top: 100%;
+      left: 480px;
+      list-style: none;
+      display: none;
+      background-color: #1a1a1a;
+      top: 54px;
+      border-radius: 10px;
+      width: 14%;
+      margin: 0;
+  }
+  .device{
+    white-space: nowrap;
+  }
+.home a{
+    color: #fff;
+    font-size: 20px;
+}
+.left-header{
+    display: flex;
+    align-items: center;  
+    justify-content: flex-end;
+    width:53%;
+}   
+.left-header a{
+    text-decoration: none;
+
+}
+.left-header i{
     color: #3b3b3b;
-    font-style: italic;
-    border: none;
-
+    margin-left: 11px;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 29px;
+    height: 29px;
+    text-align: center;
+    line-height: 29px;
 }
-.text .fa-solid{
-    width: 1%;
+.nav-side{
+    display: none;
 }
-
-
-@media only screen and (max-width: 767.13px) {
+.toggle{
+    display: none;
+}
+@media only screen and (max-width:1024px){
     
-    a {
-        margin-right: 20px;
-    }
-    
-    .logo {
-        display: flex;
-        align-items: center;
-        text-decoration: none;
-        color: #fff;
-        position: absolute;
-        top: 20px;
-    }
-    .logo img{
-        width: 120px;
-    }
-    .logo h1{
-        font-size: 30px;
-    }
-    .logo:hover {
-        color: #fff;
-    }
-    
-    .header {
-        background-color: #3b3b3b;
-        height: 150px;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        text-transform: uppercase;
-        font-weight: 600;
-        height: 200px;
-    }
-    
-    .navbar-light .navbar-nav .nav-link {
-        color: #fff;
-        margin-left: 20px;
-    }
-    .navbar-light .navbar-nav .nav-link:hover {
-        color: #d96a77;
-
-    }
-    .header .toggle {
-        display: none;
-    
-    }
-    
-    .header .close {
+    .contact-header{
         display: none;
     }
-    .collapse:not(.show) {
-        display: block;
+    .navbar{
+        display: none;
     }
-    .navbar-nav {
-        flex-direction: row;
-       font-size: 12px;
-       width: 100%;
-       margin-top: 120px;
-    }
-    .navbar-light .navbar-nav .nav-link {
-        color: #fff;
-        margin-left: 10px;
-    }
-    .icon{
-        position: relative;
-    }
-    .icon i{
-        position: absolute;
-        top: 10px;
-        right: 40px;
-    }
-    .icon i~i{
-        position: absolute;
-        right: 20px;
-        top: 10px;
-    }
-    .search{
-        outline: none;
-        width: 200px;
-    }
-    .container-fluid{
+   
+    .info-header{
         margin: 0;
+        display: block;
     }
-}
-@media only screen and (max-width: 575.13px) {
-    .collapse:not(.show) {
-        display: none;
+    .gps-header a{
+        font-size: 12px;
+       
     }
-    .logo img{
-        width: 120px;
-        margin-left: 10px;
-    }
-    .header {
-        position: relative;
-        background-color: #3b3b3b;
-        display: flex;
-        justify-content: space-between;
-        height: 150px;
-    }
-
-    .header .toggle {
+    .toggle{
         display: block;
         position: absolute;
         right: 40px;
-        top: 50px;
-        padding: 5px;
-        width: 50px;
+        top: 10px;
         border: none;
-        border-radius: 10px;
+        padding: 5px;
+        width: 40px;
+        background-color: #fff;
+        font-size: 20px;
     }
-    
-
-
+    .nav-side{
+        display: block;
+    }
+    .logo img{
+        width: 140px;
+    }
 .navbar-nav .dropdown-menu {
     position: relative !important;
 }
-    .header .nav-side {
+    .toggle-header .nav-side {
         width: 250px;
         height: 100vh;
         background-color: #fff;
@@ -226,26 +212,26 @@ a {
         transform: translateX(-110%);
     }
 
-    .header .nav-side.active {
+    .toggle-header .nav-side.active {
         transform: translateX(0);
         z-index: 1;
     }
 
-    .header .nav-side ul {
+    .toggle-header .nav-side ul {
         display: block;
         z-index: 2 !important;
     }
 
-    .header .nav-side ul li {
+    .toggle-header .nav-side ul li {
         list-style: none;
         margin-top: 40px;
         text-decoration: none;
     }
-    .header .nav-side ul li a{
+    .toggle-header .nav-side ul li a{
         text-decoration: none;
         color: #3b3b3b;
     }
-    .header .close {
+    .toggle-header .close {
         display: block;
         position: absolute;
         right: 30px;
@@ -256,19 +242,19 @@ a {
         border-radius: 10px;
     }
 
-    .header .right {
+    .toggle-header .right {
         position: absolute;
         top: 0;
-        left: 250px;
+        left: 0;
         width: 100%;
         height: 100vh;
         background-color: rgba(0, 0, 0, 0.5);
-        transform: translateY(-110%);
+        transform: translatex(-110%);
     }
 
-    .header .right.active {
-        transform: translateY(0);
-        z-index: 1;
+    .toggle-header .right.active {
+        transform: translatex(0);
+        z-index: 8;
     }
     .dropdown{
         margin-top: 10px;
@@ -290,8 +276,15 @@ a {
         right: 10px;
         top: 5px;
     }
-    .header .nav-side.active {
+    .toggle-header .nav-side.active {
+        transition: all 0.3s ease-out 0s;
         transform: translateX(0);
-        z-index: 1;
+        z-index: 9;
     }
+  
+}
+@media only screen and (max-width:576px){
+.info-header{
+    display: none;
+}
 }
