@@ -8,7 +8,7 @@ import Products from "./components/Products/products";
 function App() {
   return (
     <div className="App">
-      <Header /> 
+      {/* <Header />  */}
       {/* <Products /> 
       <Api />
       <Footer /> */}
