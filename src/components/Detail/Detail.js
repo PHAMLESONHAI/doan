@@ -192,39 +192,47 @@ export default function Detail() {
 
 
                                     <div className="usb">
+                                        <Col sm="12" md="12" lg="4">
+                                            <div className="left-usb">
 
-                                        <div className="left-usb">
-                                            <Col sm="12" md="12" lg="12">
                                                 <img src={img9}></img>
                                                 <h4>THIẾT KẾ THOẢI MÁI</h4>
                                                 <p>Thiết kế thoải mái cho mọi đối tượng được cải tiến ở Tai nghe Marshall Major 4. Dù bạn nghe nhạc bao lâu vẫn đem lại cảm giác thoải mái như lúc đầu. Đệm tai của
                                                     Marshall Major IV mềm hơn và phù hợp với nhiều hình dạng tai của người sử dụng</p>
-                                            </Col>
-                                        </div>
 
-                                        <div className="mid-usb">
-                                            <Col sm="12" md="12" lg="12">
+                                            </div>
+                                        </Col>
+                                        <Col sm="12" md="12" lg="4">
+
+                                            <div className="mid-usb">
                                                 <img src={img10}></img>
                                                 <h4>NÚM ĐIỀU KHIỂN</h4>
                                                 <p>Với núm điều khiển đa hướng, bạn có thể phát, tạm dừng, bỏ qua và điều chỉnh âm lượng của thiết bị, cũng như bật hoặc tắt nguồn tai nghe. Chức năng dành cho điện thoại cũng được
                                                     bao gồm để bạn có thể trả lời, từ chối hoặc kết thúc cuộc gọi bằng một vài cú nhấn nút đơn giản.</p>
-                                            </Col>
-                                        </div>
-                                        <div className="right-usb">
-                                            <Col sm="12" md="12" lg="12">
+                                            </div>
+                                        </Col>
+                                        <Col sm="12" md="12" lg="4">
+
+                                            <div className="right-usb">
                                                 <img src={img11}></img>
                                                 <h4>CHIA SẺ ÂM NHẠC</h4>
                                                 <p>Khi tai nghe gần hết pin, bạn có thể sử dụng dây 3.5mm để tiếp tục nghe nhạc.
                                                     Và bạn cũng có thể cắm dây 3.5mm vào một tai nghe khác để cùng nghe nhạc với bạn bè.</p>
-                                            </Col>
-                                        </div>
+                                            </div>
+                                        </Col>
                                     </div>
-
-
+                                    <div className="design">
+                                        <img src={img12}></img>
+                                        <h4>THIẾT KẾ ĐẶC TRƯNG HUYỀN THOẠI</h4>
+                                        <p>Tai nghe Marshall Major 4 của dòng tai nghe Marshall kết hợp tính năng hữu dụng cao cấp với chất liệu Marshall cổ điển để tạo ra một thiết kế vừa mang tính biểu tượng vừa mang tính sáng tạo. Bản lề gấp gọn mới giúp cho Major IV có thể gấp lại thành một kích thước nhỏ gọn hơn nữa khiến cho chụp tai nghe được bảo vệ khỏi bị hao mòn và va đập tốt hơn. Núm điều khiển được thiết kế nhỏ gọn, tiện lợi và dễ sử dụng. Tai nghe được bọc lớp nhựa vinyl đen cùng logo Marshall đặc trưng,
+                                             đảm bảo độ bền chắc chắn cần thiết cho cuộc sống bận rộn ngày nay.</p>
+                                    </div>
                                 </div>
                             </Col>
                             <Col sm="12" md="6" lg="4">
-                                <div className="info-product-detail-right">dsadsa</div>
+                                <div className="info-product-detail-right">
+                                    <h5>Thông tin kỹ thuật</h5>
+                                </div>
                             </Col>
                         </div>
                     </Row>
