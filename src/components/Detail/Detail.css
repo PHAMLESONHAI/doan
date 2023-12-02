@@ -6,8 +6,9 @@
 }
 body{
     width: 100%;
-    height: 10vh;
+    height: 100vh;
 }
+
 .top-detail{
     margin-top: 30px;
     font-size: 14px;
@@ -15,7 +16,7 @@ body{
     letter-spacing: 2px;
 }
 .detail{
-    height: 130vh;
+    height: 100vh;
     align-items: center;
     justify-content: flex-start;
 }
@@ -36,7 +37,7 @@ body{
     padding: 0;
 }
 .mid-product-detail img{
-    width: 350px;
+    width: 90%;
 }   
 .right-product-detail{
     height: 474px;
@@ -79,7 +80,7 @@ body{
 .buy{
     display: flex;
      align-items: center;
-
+     margin-top: 20px;
 }
 .quantity {
     border:1px solid #888; 
@@ -113,10 +114,10 @@ body{
 }
 .buy p{
     text-align: center;
-    padding: 10px;
-    width: 70%;
+    padding: 1.5%;
+    width: 100%;
     background: rgb(107,163,49);
-    margin-left: 50px;
+    margin-left: 10px;
     color: #fff;
     margin-bottom: 0;
     border-radius: 10px;
@@ -128,11 +129,14 @@ body{
 }
 .share{
     display: flex;
-
-
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .left-share{
-    width: 75%;
+    display: flex;
+    align-items: center;
 }
 .left-share a{
     text-decoration: none;
@@ -140,6 +144,8 @@ body{
     color: #1a1a1a;
     font-size: 14px;
     font-weight: 600;
+    display: flex;
+    align-items: center;
 }
 .left-share a:hover{
     color: #888;
@@ -158,10 +164,13 @@ width: 100%;
     font-weight: 600;
     display: flex;
 }
+p{
+    margin-bottom: 0;
+}
 .right-share .fa-brands{
     margin-left: 10px;
     color: #1a1a1a;
-    font-size: 14px;
+    font-size: 18px;
 }
 .right-share .fa-brands:hover{
     color: #888;
@@ -174,6 +183,38 @@ width: 100%;
     font-size: 15px;
     font-weight: 600;
 }
+
+@media only screen and (max-width:1024px){
+    .detail{
+        height: 120vh;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .left-product-detail{
+        display: none;
+    }
+    .right-share{
+        margin-top: 20px;
+    }
+    .buy p {
+        font-size: 10px;
+    }
+    .pay img{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:767px){
+    .detail{
+        height: 155vh;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .right-share {
+         margin-top: 0; 
+    }
+}
+
+
 .ship .ship-above{
     display: flex;
     justify-content: space-between;
@@ -277,10 +318,13 @@ width: 100%;
 
 }
 .sub-info-detail1-left{
-    width: 60%;
+    width: 100%;
 }
 .sub-info-detail1-right img{
-    width: 350px;
+    width: 100%;
+}
+.sub-info-detail1-right{
+    width: 80%;
 }
 .title-detail1{
     font-size: 20px;
@@ -295,18 +339,20 @@ width: 100%;
 .usb{
     display: flex;
     text-align: center;
-    align-items: center;
+}
+.right-usb{
+    margin-right: 15px;
 }
 .left-usb img{
-    width: 78.3%;
+    width: 70%;
     border-radius: 10px;
 }
 .mid-usb img{
-    max-width: 68.5%;
+    max-width: 60%;
     border-radius: 10px;
 }
 .right-usb img{
-    width: 100%;
+    width: 90%;
     border-radius: 5%;
 }
 .left-usb h4{
@@ -314,20 +360,19 @@ width: 100%;
 }
 .mid-usb h4{
     margin-top: 20px;
+    margin-left: 0;
 }
 
 .right-usb h4{
     margin-top: 20px;
 }
 .left-usb p{
-    padding-left: 5%;
+    margin-left: 15px;
 }
 .mid-usb p{
-    padding:0 5%;
+    margin: 0 30px;
 }
-.right-usb p{
-    padding-right: 5%;
-}
+
 
 
 

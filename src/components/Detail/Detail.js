@@ -63,7 +63,7 @@ export default function Detail() {
                                 <div><p>Màu : </p></div>
                                 <div className="sub-color"></div>
                             </div>
-                            <div className="buy">''
+                            <div className="buy">
                                 <div className="quantity">
                                     <span className="apart">-</span><span>1</span><span className="plus">+</span>
                                 </div>
@@ -76,16 +76,14 @@ export default function Detail() {
                                     <a href=""><i class="fa-solid fa-shuffle"></i><span>Compare</span></a>
                                     <a href=""><i class="fa-regular fa-heart"></i><span>Add to wishlist</span></a>
                                 </div>
-                                <Col sm="12" md="6" lg="1">
-                                    <div className="right-share">
-                                        <span>Share:</span>
-                                        <a href=""><i class="fa-brands fa-facebook"></i></a>
-                                        <a href=""><i class="fa-brands fa-twitter"></i></a>
-                                        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
-                                        <a href=""><i class="fa-brands fa-pinterest"></i></a>
-                                        <a href=""><i class="fa-brands fa-telegram"></i></a>
-                                    </div>
-                                </Col>
+                                <div className="right-share">
+                                    <p>Share:</p>
+                                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fa-brands fa-pinterest"></i></a>
+                                    <a href=""><i class="fa-brands fa-telegram"></i></a>
+                                </div>
                             </div>
                             <div className="ship">
                                 <Col sm="12" md="12" lg="12">
@@ -191,29 +189,37 @@ export default function Detail() {
                                             <img src={img8}></img>
                                         </div>
                                     </div>
-                                    <Col sm="12" md="12" lg="11">
 
-                                        <div className="usb">
-                                            <div className="left-usb">
+
+                                    <div className="usb">
+
+                                        <div className="left-usb">
+                                            <Col sm="12" md="12" lg="12">
                                                 <img src={img9}></img>
                                                 <h4>THIẾT KẾ THOẢI MÁI</h4>
                                                 <p>Thiết kế thoải mái cho mọi đối tượng được cải tiến ở Tai nghe Marshall Major 4. Dù bạn nghe nhạc bao lâu vẫn đem lại cảm giác thoải mái như lúc đầu. Đệm tai của
                                                     Marshall Major IV mềm hơn và phù hợp với nhiều hình dạng tai của người sử dụng</p>
-                                            </div>
-                                            <div className="mid-usb">
+                                            </Col>
+                                        </div>
+
+                                        <div className="mid-usb">
+                                            <Col sm="12" md="12" lg="12">
                                                 <img src={img10}></img>
                                                 <h4>NÚM ĐIỀU KHIỂN</h4>
                                                 <p>Với núm điều khiển đa hướng, bạn có thể phát, tạm dừng, bỏ qua và điều chỉnh âm lượng của thiết bị, cũng như bật hoặc tắt nguồn tai nghe. Chức năng dành cho điện thoại cũng được
                                                     bao gồm để bạn có thể trả lời, từ chối hoặc kết thúc cuộc gọi bằng một vài cú nhấn nút đơn giản.</p>
-                                            </div>
-                                            <div className="right-usb">
+                                            </Col>
+                                        </div>
+                                        <div className="right-usb">
+                                            <Col sm="12" md="12" lg="12">
                                                 <img src={img11}></img>
                                                 <h4>CHIA SẺ ÂM NHẠC</h4>
                                                 <p>Khi tai nghe gần hết pin, bạn có thể sử dụng dây 3.5mm để tiếp tục nghe nhạc.
                                                     Và bạn cũng có thể cắm dây 3.5mm vào một tai nghe khác để cùng nghe nhạc với bạn bè.</p>
-                                            </div>
+                                            </Col>
                                         </div>
-                                        </Col>
+                                    </div>
+
 
                                 </div>
                             </Col>
