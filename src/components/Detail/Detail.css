@@ -220,7 +220,9 @@ p{
 @media only screen and (max-width:991px){
     .usb{
         flex-direction: column;
-    
+    }
+    .info-product-detail-right{
+        display: none;
     }
 }
 
@@ -303,7 +305,7 @@ p{
     border-radius: 12px;
 }
 .info-product-detail-right{
-    background-color: #888;
+    background-color: #f7f7f7;
     margin-top: 30px;
 }
 .sub-info-detail{
@@ -387,7 +389,68 @@ p{
 .design img{
     width: 100%;
 }
+.info-product-detail-right {
+    margin-top: 30px;
+    padding: 25px;
+}
+.info-product-detail-right .title1{
+    font-weight: 600;
+    font-size: 25px;
+}
+.chip{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+.chip h5{
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+.chip i{
+    font-size: 20px;
+}
+.sub-chip{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.sub-chip-left{
+   font-size: 14px;
+   font-weight: 600;
+}
+.sub-chip-right{
+    font-size: 14px;
+}
+.bottom-detail{
+    margin-top: 40px;
+}
+.bottom-detail h4{
+    margin-left: 15px;
+}
+.sub-bottom-right h1{
+    font-weight: 600;
+   font-size: 65px;
+}
+.sub-bottom-right{
+    margin-top: 40px;
+    text-align: center;
+}
+.bottom-star{
+    margin-top: 25px;
+}
+.bottom-star{
+    display: flex;
+    justify-content: space-between;
+}
+.sub-star-left{
 
+}
+.sub-star-right{
+    width: 20%;
+    background-color: #000000;
+    height: 20px;
+}
 
 
 

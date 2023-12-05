@@ -8,8 +8,8 @@ import Products from "./components/Products/products";
 function App() {
   return (
     <div className="App">
-      {/* <Header />  */}
-      {/* <Products /> 
+      {/* <Header /> 
+      <Products /> 
       <Api />
       <Footer /> */}
       {/* <Cardview /> */}
