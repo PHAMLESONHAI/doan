@@ -11,8 +11,8 @@ function App() {
       {/* <Header /> 
       <Products /> 
       <Api />
-      <Footer /> */}
-      {/* <Cardview /> */}
+      <Footer /> 
+       <Cardview /> */}
       <Detail />
     </div>
   );

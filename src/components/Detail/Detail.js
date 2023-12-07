@@ -14,9 +14,9 @@ import img11 from "../../img/usp06-major-iv.jpg.webp"
 import img12 from "../../img/08-usp07-major-iv-desktop@1.41x.png.webp"
 import Cardview from "../Cardview/Cardview"
 import Api from "../Api/Api"
- 
 
-import img13 from"../../img/loa1.png"
+
+import img13 from "../../img/loa1.png"
 import img14 from "../../img/loa2.webp"
 import img15 from "../../img/loa3.webp"
 import img16 from "../../img/loa4.webp"
@@ -30,7 +30,7 @@ import { useEffect, useState } from "react"
 
 export default function Detail() {
     const img = [
-        img13,img14,img15,img16
+        img13, img14, img15, img16
     ]
     const url = `https://6525460267cfb1e59ce6fe2b.mockapi.io/Student`
     const [data, setData] = useState([])
@@ -254,7 +254,7 @@ export default function Detail() {
                                         <img src={img12}></img>
                                         <h4>THIẾT KẾ ĐẶC TRƯNG HUYỀN THOẠI</h4>
                                         <p>Tai nghe Marshall Major 4 của dòng tai nghe Marshall kết hợp tính năng hữu dụng cao cấp với chất liệu Marshall cổ điển để tạo ra một thiết kế vừa mang tính biểu tượng vừa mang tính sáng tạo. Bản lề gấp gọn mới giúp cho Major IV có thể gấp lại thành một kích thước nhỏ gọn hơn nữa khiến cho chụp tai nghe được bảo vệ khỏi bị hao mòn và va đập tốt hơn. Núm điều khiển được thiết kế nhỏ gọn, tiện lợi và dễ sử dụng. Tai nghe được bọc lớp nhựa vinyl đen cùng logo Marshall đặc trưng,
-                                             đảm bảo độ bền chắc chắn cần thiết cho cuộc sống bận rộn ngày nay.</p>
+                                            đảm bảo độ bền chắc chắn cần thiết cho cuộc sống bận rộn ngày nay.</p>
                                     </div>
                                 </div>
                             </Col>
@@ -262,147 +262,234 @@ export default function Detail() {
                                 <div className="info-product-detail-right">
                                     <h3 className="title1">Thông tin kỹ thuật</h3>
                                     <div className="chip">
-                                <i class="fa-solid fa-microchip"></i>
-                                <h5>Thông số âm thanh</h5>
-                                </div>
-                                <Col sm="12" md="12" lg="12">
-                                <div className="sub-chip">
-                                    <div className="sub-chip-left">
-                                        <p>Thương hiệu</p>
+                                        <i class="fa-solid fa-microchip"></i>
+                                        <h5>Thông số âm thanh</h5>
                                     </div>
-                                    <div className="sub-chip-right">
-                                        <p>Marshall (Anh Quốc)</p>
-                                    </div>                               
-                                </div>
-                                </Col>
-                                <Col sm="12" md="12" lg="12">
-                                <div className="sub-chip">
-                                    <div className="sub-chip-left">
-                                        <p>Màu</p>
+                                    <Col sm="12" md="12" lg="12">
+                                        <div className="sub-chip">
+                                            <div className="sub-chip-left">
+                                                <p>Thương hiệu</p>
+                                            </div>
+                                            <div className="sub-chip-right">
+                                                <p>Marshall (Anh Quốc)</p>
+                                            </div>
+                                        </div>
+                                    </Col>
+                                    <Col sm="12" md="12" lg="12">
+                                        <div className="sub-chip">
+                                            <div className="sub-chip-left">
+                                                <p>Màu</p>
+                                            </div>
+                                            <div className="sub-chip-right">
+                                                <p>Black</p>
+                                            </div>
+                                        </div>
+                                    </Col>
+                                    <Col sm="12" md="12" lg="12">
+                                        <div className="sub-chip">
+                                            <div className="sub-chip-left">
+                                                <p>Tần số</p>
+                                            </div>
+                                            <div className="sub-chip-right">
+                                                <p>20-20.000 Hz</p>
+                                            </div>
+                                        </div>
+                                    </Col>
+                                    <Col sm="12" md="12" lg="12">
+                                        <div className="sub-chip">
+                                            <div className="sub-chip-left">
+                                                <p>Ứng dụng hỗ trợ</p>
+                                            </div>
+                                            <div className="sub-chip-right">
+                                                <p>Không hỗ trợ kết nối APP</p>
+                                            </div>
+                                        </div>
+                                    </Col>
+                                    <div className="border"></div>
+                                    <div className="chip">
+                                        <i class="fa-solid fa-gear"></i>
+                                        <h5>Kiểm soát và kết nối</h5>
                                     </div>
-                                    <div className="sub-chip-right">
-                                        <p>Black</p>
-                                    </div>                               
-                                </div>
-                                </Col>
-                                <Col sm="12" md="12" lg="12">
-                                <div className="sub-chip">
-                                    <div className="sub-chip-left">
-                                        <p>Tần số</p>
+                                    <Col sm="12" md="12" lg="12">
+                                        <div className="sub-chip">
+                                            <div className="sub-chip-left">
+                                                <p>Kết nối không dây</p>
+                                            </div>
+                                            <div className="sub-chip-right">
+                                                <p>Bluetooth 5.0</p>
+                                            </div>
+                                        </div>
+                                    </Col>
+                                    <Col sm="12" md="12" lg="12">
+                                        <div className="sub-chip">
+                                            <div className="sub-chip-left">
+                                                <p>Pin</p>
+                                            </div>
+                                            <div className="sub-chip-right">
+                                                <p>Pin Li-ion tích hợp, Sạc không dây</p>
+                                            </div>
+                                        </div>
+                                    </Col>
+                                    <Col sm="12" md="12" lg="12">
+                                        <div className="sub-chip">
+                                            <div className="sub-chip-left">
+                                                <p>Thời gian sạc</p>
+                                            </div>
+                                            <div className="sub-chip-right">
+                                                <p>3 giờ sạc đầy</p>
+                                            </div>
+                                        </div>
+                                    </Col>
+                                    <Col sm="12" md="12" lg="12">
+                                        <div className="sub-chip">
+                                            <div className="sub-chip-left">
+                                                <p>Thời lượng Pin</p>
+                                            </div>
+                                            <div className="sub-chip-right">
+                                                <p>80 giờ sử dụng Bluetooth</p>
+                                            </div>
+                                        </div>
+                                    </Col>
+                                    <Col sm="12" md="12" lg="12">
+                                        <div className="sub-chip">
+                                            <div className="sub-chip-left">
+                                                <p>Kết nối có dây</p>
+                                            </div>
+                                            <div className="sub-chip-right">
+                                                <p>AUX</p>
+                                            </div>
+                                        </div>
+                                    </Col>
+                                    <div className="border"></div>
+                                    <div className="chip">
+                                        <i class="fa-solid fa-weight-scale"></i>
+                                        <h5>Trọng lượng</h5>
                                     </div>
-                                    <div className="sub-chip-right">
-                                        <p>20-20.000 Hz</p>
-                                    </div>                               
-                                </div>
-                                </Col>
-                                <Col sm="12" md="12" lg="12">
-                                <div className="sub-chip">
-                                    <div className="sub-chip-left">
-                                        <p>Ứng dụng hỗ trợ</p>
-                                    </div>
-                                    <div className="sub-chip-right">
-                                        <p>Không hỗ trợ kết nối APP</p>
-                                    </div>                               
-                                </div>
-                                </Col>
-                                <div className="border"></div>
-                                <div className="chip">
-                                <i class="fa-solid fa-gear"></i>
-                                <h5>Kiểm soát và kết nối</h5>
-                                </div>
-                                <Col sm="12" md="12" lg="12">
-                                <div className="sub-chip">
-                                    <div className="sub-chip-left">
-                                        <p>Kết nối không dây</p>
-                                    </div>
-                                    <div className="sub-chip-right">
-                                        <p>Bluetooth 5.0</p>
-                                    </div>                               
-                                </div>
-                                </Col>
-                                <Col sm="12" md="12" lg="12">
-                                <div className="sub-chip">
-                                    <div className="sub-chip-left">
-                                        <p>Pin</p>
-                                    </div>
-                                    <div className="sub-chip-right">
-                                        <p>Pin Li-ion tích hợp, Sạc không dây</p>
-                                    </div>                               
-                                </div>
-                                </Col>
-                                <Col sm="12" md="12" lg="12">
-                                <div className="sub-chip">
-                                    <div className="sub-chip-left">
-                                        <p>Thời gian sạc</p>
-                                    </div>
-                                    <div className="sub-chip-right">
-                                        <p>3 giờ sạc đầy</p>
-                                    </div>                               
-                                </div>
-                                </Col>
-                                <Col sm="12" md="12" lg="12">
-                                <div className="sub-chip">
-                                    <div className="sub-chip-left">
-                                        <p>Thời lượng Pin</p>
-                                    </div>
-                                    <div className="sub-chip-right">
-                                        <p>80 giờ sử dụng Bluetooth</p>
-                                    </div>                               
-                                </div>
-                                </Col>
-                                <Col sm="12" md="12" lg="12">
-                                <div className="sub-chip">
-                                    <div className="sub-chip-left">
-                                        <p>Kết nối có dây</p>
-                                    </div>
-                                    <div className="sub-chip-right">
-                                        <p>AUX</p>
-                                    </div>                               
-                                </div>
-                                </Col>
-                                <div className="border"></div>
-                                <div className="chip">
-                                <i class="fa-solid fa-weight-scale"></i>
-                                <h5>Trọng lượng</h5>
-                                </div>
-                                <Col sm="12" md="12" lg="12">
-                                <div className="sub-chip">
-                                    <div className="sub-chip-left">
-                                        <p>Kết nối có dây</p>
-                                    </div>
-                                    <div className="sub-chip-right">
-                                        <p>AUX</p>
-                                    </div>                               
-                                </div>
-                                </Col>
-                                <div className="border" ></div>
+                                    <Col sm="12" md="12" lg="12">
+                                        <div className="sub-chip">
+                                            <div className="sub-chip-left">
+                                                <p>Kết nối có dây</p>
+                                            </div>
+                                            <div className="sub-chip-right">
+                                                <p>AUX</p>
+                                            </div>
+                                        </div>
+                                    </Col>
+                                    <div className="border" ></div>
                                 </div>
                             </Col>
                         </div>
-                        <Col sm="12" md="12" lg="6">
+                        <Col sm="12" md="12" lg="12">
+                            <div className="evaluation-custom">
+                            <Col sm="12" md="12" lg="4">
                             <div className="bottom-detail">
                                 <h4>Khách hàng đánh giá</h4>
-                                <div className="sub-bottom-right">
+                                <div className="sub-bottom-left">
                                     <h1>5</h1>
                                     <div className="evaluate">
-                                <i class="fa-solid fa-star" style={{ color: "#e2e524" }}></i>
-                                <i class="fa-solid fa-star" style={{ color: "#e2e524" }}></i>
-                                <i class="fa-solid fa-star" style={{ color: "#e2e524" }}></i>
-                                <i class="fa-solid fa-star" style={{ color: "#e2e524" }}></i>
-                                <i class="fa-solid fa-star" style={{ color: "#e2e524" }}></i><br></br>(233 đánh giá của khách hàng)
-                            </div>
-                            <Col sm="12" md="12" lg="12">
-                            <div className="bottom-star">
-                                <div className="sub-star-left"><i class="fa-solid fa-star" style={{ color: "#e2e524" }}></i>
-                                <i class="fa-solid fa-star" style={{ color: "#e2e524" }}></i>
-                                <i class="fa-solid fa-star" style={{ color: "#e2e524" }}></i>
-                                <i class="fa-solid fa-star" style={{ color: "#e2e524" }}></i>
-                                <i class="fa-solid fa-star" style={{ color: "#e2e524" }}></i></div>
-                                <div className="sub-star-right"></div>
+                                        <i class="fa-solid fa-star" style={{ color: "#e2e524" }}></i>
+                                        <i class="fa-solid fa-star" style={{ color: "#e2e524" }}></i>
+                                        <i class="fa-solid fa-star" style={{ color: "#e2e524" }}></i>
+                                        <i class="fa-solid fa-star" style={{ color: "#e2e524" }}></i>
+                                        <i class="fa-solid fa-star" style={{ color: "#e2e524" }}></i><br></br>(233 đánh giá của khách hàng)
+                                    </div>
+                                    <Col sm="12" md="12" lg="12">
+                                        <div className="bottom-star">
+                                            <div className="sub-star-left sub-star-leftv1"><i class="fa-solid fa-star" style={{ color: "#e2e524" }}></i>
+                                                <i class="fa-solid fa-star" style={{ color: "#e2e524" }}></i>
+                                                <i class="fa-solid fa-star" style={{ color: "#e2e524" }}></i>
+                                                <i class="fa-solid fa-star" style={{ color: "#e2e524" }}></i>
+                                                <i class="fa-solid fa-star" style={{ color: "#e2e524" }}></i></div>
+                                            <div className="sub-star-right sub-star-rightv1"></div><span>233</span>
+                                        </div>
+                                        <div className="bottom-star">
+                                            <div className="sub-star-left"><i class="fa-solid fa-star" style={{ color: "#e2e524" }}></i>
+                                                <i class="fa-solid fa-star" style={{ color: "#e2e524" }}></i>
+                                                <i class="fa-solid fa-star" style={{ color: "#e2e524" }}></i>
+                                                <i class="fa-solid fa-star" style={{ color: "#e2e524" }}></i>
+                                                <i class="fa-regular fa-star"></i></div>
+                                            <div className="sub-star-right "></div>0
+                                        </div>
+                                        <div className="bottom-star">
+                                            <div className="sub-star-left"><i class="fa-solid fa-star" style={{ color: "#e2e524" }}></i>
+                                                <i class="fa-solid fa-star" style={{ color: "#e2e524" }}></i>
+                                                <i class="fa-solid fa-star" style={{ color: "#e2e524" }}></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                <i class="fa-regular fa-star"></i></div>
+                                            <div className="sub-star-right"></div>0
+                                        </div>
+                                        <div className="bottom-star">
+                                            <div className="sub-star-left"><i class="fa-solid fa-star" style={{ color: "#e2e524" }}></i>
+                                                <i class="fa-solid fa-star" style={{ color: "#e2e524" }}></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                <i class="fa-regular fa-star"></i></div>
+                                            <div className="sub-star-right"></div>0
+                                        </div>
+                                        <div className="bottom-star">
+                                            <div className="sub-star-left"><i class="fa-solid fa-star" style={{ color: "#e2e524" }}></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                <i class="fa-regular fa-star"></i></div>
+                                            <div className="sub-star-right"></div>0
+                                        </div>
+                                    </Col>
+                                </div>
                             </div>
                             </Col>
+                            <Col sm="12" md="12" lg="7">
+                                <div className="sub-bottom-right1">
+                                <div className="evaluation">
+                                    <h5>Thêm đánh giá</h5>
+                                    <p>Email của bạn sẽ không được hiển thị công khai. Các trường bắt buộc được đánh dấu</p>
+                                    <div className="evaluationv1">
+                                        <div className="evaluationv1-left">
+                                            <p>Đánh giá của bạn</p>
+                                        </div>
+                                        <div className="evaluationv1-right">
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div className="evaluationv1">
+                                        <div className="evaluationv1-left">
+                                            <p>Đánh giá của bạn</p>
+                                        </div>
+                                        <div className="evaluationv1-right">
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div className="evaluationv1">
+                                        <div className="evaluationv1-left">
+                                            <p>Đánh giá của bạn</p>
+                                        </div>
+                                        <div className="evaluationv1-right">
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div className="evaluationv1">
+                                        <div className="evaluationv1-left">
+                                            <p>Đánh giá của bạn</p>
+                                        </div>
+                                        <div className="evaluationv1-right">
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div className="sub-bottom-left"></div>
+                            </div>
+                            </Col>
                             </div>
                         </Col>
                         {/* {data.slice(0,4).map((item, index) => {
@@ -412,10 +499,10 @@ export default function Detail() {
                     })} */}
                     </Row>
                 </Container>
-               
+
             </div>
         </div>
 
     )
 }
-// https://marshallstorevietnam.vn/gio-hang/
+// https://marshallstorevietnam.vn/gio-hang/   
