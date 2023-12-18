@@ -18,6 +18,8 @@ import {
 } from 'reactstrap';
 import "./Header.css"
 import img1 from "../../img/Marshall-Logo-1.png"
+import Blog from '../Blog/Blog';
+import { Link } from 'react-router-dom';
 export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -111,12 +113,12 @@ export default function Header() {
                                     <a href='#'><i class="fa-solid fa-house"></i></a>
                                 </div>
                                 <NavItem>
-                                    <NavLink href="#" className='menu'>LoaMarshall<i class="fa-solid fa-angle-down"></i>
+                                    <NavLink href="#" className='menu'> <Link to='/Products1'>LoaMarshall</Link><i class="fa-solid fa-angle-down"></i>
                                         <ul className='sub-menu'>
-                                            <a href='#'><li>dsadsas</li></a>
-                                            <a href='#'><li>dsadsas</li></a>
-                                            <a href='#'><li>dsadsas</li></a>
-                                            <a href='#'><li>dsadsas</li></a>
+                                        <a href='#'><li>In-Ear</li></a>
+                                            <a href='#'><li>On-Ear</li></a>
+                                            <a href='#'><li>Over-Ear</li></a>
+                                            <a href='#'><li>HeadPhone</li></a>
                                         </ul>
                                     </NavLink>
                                 </NavItem>
@@ -129,21 +131,23 @@ export default function Header() {
                                     <NavLink href="#" className='menu1'>
                                         Tai nghe Marshall<i class="fa-solid fa-angle-down"></i>
                                         <ul className='sub-menu1'>
-                                            <a href='#'><li>dsadsas</li></a>
-                                            <a href='#'><li>dsadsas</li></a>
-                                            <a href='#'><li>dsadsas</li></a>
-                                            <a href='#'><li>dsadsas</li></a>
+                                            <a href='#'><li>In-Ear</li></a>
+                                            <a href='#'><li>On-Ear</li></a>
+                                            <a href='#'><li>Over-Ear</li></a>
+                                            <a href='#'><li>HeadPhone</li></a>
                                         </ul>
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink href="#">
-                                        Blog
+                                    <NavLink > 
+                                    
+                                        <Link to='/Blog'>Blog</Link>
+                                    
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink href="#">
-                                        Contact
+                                    <NavLink >
+                                    <Link to='/Contact'>Contact</Link>
                                     </NavLink>
                                 </NavItem>
 

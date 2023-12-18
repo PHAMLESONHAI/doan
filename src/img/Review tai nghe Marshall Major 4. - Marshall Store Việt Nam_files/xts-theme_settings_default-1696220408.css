@@ -1,0 +1,274 @@
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: "woodmart-font";
+	src: url("//marshallstorevietnam.vn/wp-content/themes/woodmart/fonts/woodmart-font-2-400.woff2?v=7.1.4") format("woff2");
+	font-display:swap;
+}
+
+:is(.shop-content-area.wd-builder-off,.wd-wishlist-content,.related-and-upsells,.cart-collaterals,.wd-shop-product) .wd-products-with-bg, :is(.shop-content-area.wd-builder-off,.wd-wishlist-content,.related-and-upsells,.cart-collaterals,.wd-shop-product) .wd-products-with-bg .product-grid-item{
+	--wd-prod-bg:rgb(255,255,255); --wd-bordered-bg:rgb(255,255,255);
+}
+
+.wd-popup.wd-promo-popup{
+	background-color:rgb(255,255,255);
+	background-image: none;
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:left center;
+}
+
+.page-title-default{
+	background-color:rgb(15,1,1);
+	background-image: none;
+	background-size:cover;
+	background-position:center center;
+}
+
+.footer-container{
+	background-color:rgb(15,15,15);
+	background-image: none;
+}
+
+:root{
+--wd-text-font:"Open Sans", Arial, Helvetica, sans-serif;
+--wd-text-font-weight:400;
+--wd-text-color:#777777;
+--wd-text-font-size:15px;
+}
+:root{
+--wd-title-font:"Lexend Deca", Arial, Helvetica, sans-serif;
+--wd-title-font-weight:500;
+--wd-title-color:#242424;
+}
+:root{
+--wd-entities-title-font:"Lexend Deca", Arial, Helvetica, sans-serif;
+--wd-entities-title-font-weight:500;
+--wd-entities-title-color:#333333;
+--wd-entities-title-color-hover:rgb(51 51 51 / 65%);
+}
+:root{
+--wd-alternative-font:"Lexend Deca", Arial, Helvetica, sans-serif;
+}
+:root{
+--wd-widget-title-font:"Lexend Deca", Arial, Helvetica, sans-serif;
+--wd-widget-title-font-weight:500;
+--wd-widget-title-transform:capitalize;
+--wd-widget-title-color:#333;
+--wd-widget-title-font-size:16px;
+}
+:root{
+--wd-header-el-font:"Open Sans", Arial, Helvetica, sans-serif;
+--wd-header-el-font-weight:600;
+--wd-header-el-transform:capitalize;
+--wd-header-el-font-size:13px;
+}
+html .wd-nav-mobile > li > a{
+	text-transform: capitalize;color: rgb(255,255,255);
+}
+
+html .wd-nav-mobile > li > a:hover, html .wd-nav-mobile > li.current-menu-item > a{
+	color: rgb(255,255,255);
+}
+
+html .post.blog-post-loop .post-title{
+	font-size: 18px;
+}
+
+html .wd-nav.wd-nav-main > li > a{
+	color: rgb(255,255,255);
+}
+
+html .wd-nav.wd-nav-main > li:hover > a, html .wd-nav.wd-nav-main > li.current-menu-item > a{
+	color: rgb(204,204,204);
+}
+
+:root{
+--wd-brd-radius: 10px;
+}:root{
+--wd-primary-color:rgb(15,0,0);
+}
+:root{
+--wd-alternative-color:rgba(15,0,0,0.27);
+}
+:root{
+--wd-link-color:#333333;
+--wd-link-color-hover:rgb(36,36,36);
+}
+.page .main-page-wrapper{
+	background-color:rgb(246,246,246);
+	background-image: none;
+}
+
+.woodmart-archive-shop .main-page-wrapper{
+	background-color:rgb(246,246,246);
+	background-image: none;
+}
+
+.woodmart-archive-blog .main-page-wrapper{
+	background-color:rgb(246,246,246);
+	background-image: none;
+}
+
+:root{
+--btn-default-bgcolor:rgb(15,13,13);
+}
+:root{
+--btn-default-bgcolor-hover:rgb(40,40,40);
+}
+:root{
+--btn-default-color:rgb(255,255,255);
+}
+:root{
+--btn-default-color-hover:rgb(255,255,255);
+}
+:root{
+--btn-accented-bgcolor:rgb(15,0,0);
+}
+:root{
+--btn-accented-bgcolor-hover:rgb(15,0,0);
+}
+:root{
+--btn-transform:capitalize;
+}
+html .wd-buy-now-btn{
+	background: rgb(107,163,49);
+}
+
+html .wd-buy-now-btn:hover{
+	background: rgb(95,158,44);
+}
+
+:root{
+--notices-success-bg:#459647;
+}
+:root{
+--notices-success-color:#fff;
+}
+:root{
+--notices-warning-bg:#E0B252;
+}
+:root{
+--notices-warning-color:#fff;
+}
+	:root{
+					
+							--wd-form-brd-radius: 5px;
+			
+					
+					--wd-form-brd-width: 1px;
+		
+					--btn-default-color: #fff;
+		
+					--btn-default-color-hover: #fff;
+		
+					--btn-accented-color: #fff;
+		
+					--btn-accented-color-hover: #fff;
+		
+					
+			
+			
+							--btn-default-brd-radius: 5px;
+				--btn-default-box-shadow: none;
+				--btn-default-box-shadow-hover: none;
+					
+					
+			
+			
+							--btn-accented-brd-radius: 5px;
+				--btn-accented-box-shadow: none;
+				--btn-accented-box-shadow-hover: none;
+					
+							
+			}
+
+	
+	
+			@media (min-width: 1025px) {
+			.whb-boxed:not(.whb-sticked):not(.whb-full-width) .whb-main-header {
+				max-width: 1370px;
+			}
+		}
+
+		.container {
+			max-width: 1400px;
+		}
+
+		:root{
+			--wd-container-width: 1400px;
+		}
+	
+			.elementor-section.wd-section-stretch > .elementor-column-gap-no {
+			max-width: 1370px;
+		}
+		.elementor-section.wd-section-stretch > .elementor-column-gap-narrow {
+			max-width: 1380px;
+		}
+		.elementor-section.wd-section-stretch > .elementor-column-gap-default {
+			max-width: 1390px;
+		}
+		.elementor-section.wd-section-stretch > .elementor-column-gap-extended {
+			max-width: 1400px;
+		}
+		.elementor-section.wd-section-stretch > .elementor-column-gap-wide {
+			max-width: 1410px;
+		}
+		.elementor-section.wd-section-stretch > .elementor-column-gap-wider {
+			max-width: 1430px;
+		}
+		@media (min-width: 1417px) {
+			.platform-Windows .wd-section-stretch > .elementor-container {
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+		@media (min-width: 1400px) {
+			html:not(.platform-Windows) .wd-section-stretch > .elementor-container {
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+	
+			div.wd-popup.popup-quick-view {
+			max-width: 920px;
+		}
+	
+			div.wd-popup.wd-promo-popup {
+			max-width: 800px;
+		}
+	
+	
+	
+			.woodmart-woocommerce-layered-nav .wd-scroll-content {
+			max-height: 223px;
+		}
+	
+	
+	body, [class*=color-scheme-light], [class*=color-scheme-dark], .wd-search-form[class*="wd-header-search-form"] form.searchform, .wd-el-search .searchform {
+
+							
+							
+							
+							
+									--wd-form-bg: rgb(255,255,255);
+						}
+.wd-hover-fw-button .wrap-price {
+    align-items: flex-start !important;
+    flex-direction: column;
+}
+.wd-popup {padding: 0 !important;overflow: hidden;}@media (min-width: 768px) and (max-width: 1024px) {
+	#button-contact-vr {display:none;}
+.scrollToTop {right: auto;left: 12px;}
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+	#button-contact-vr {display:none;}
+.scrollToTop {right: auto;left: 12px;}
+}
+
+@media (max-width: 576px) {
+	/*.scrollToTop {right: auto;left: 12px;}*/
+#fb-root{display:none;}
+}
+

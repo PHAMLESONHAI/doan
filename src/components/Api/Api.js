@@ -48,7 +48,7 @@ export default function Api() {
                 <Row>
                     {data.map((item, index) => {
                         return (
-                        <Cardview item={item} key={index} img={img[index]}/>
+                        <Cardview item={item} key={index}  img={img[index]}/>
                         )
                     })}
                 </Row>

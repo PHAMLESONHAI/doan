@@ -114,7 +114,7 @@ body{
     font-weight: 600;
 }
 .product-thumb{
-    margin: 10px 10px 20px;
+    margin: 10px 2px 20px;
     position: relative;
 }
 .product-thumb > a {
@@ -196,10 +196,11 @@ a:hover {
 }
 a:hover, a:focus {
     text-decoration: none;
-    outline: none;
+    outline: none;    z-index: 99;
 }
 .product-item .product-more-link a:hover .fa-solid {
     color: #fff;
+    
 }
 .product-item .product-more-link .fa-solid {
     background: transparent none repeat scroll 0 0;
@@ -209,6 +210,7 @@ a:hover, a:focus {
     opacity: 1;
     visibility: visible;
     margin-top: 0;
+    
 }
 .product-more-link a span {
     background: #000 none repeat scroll 0 0;
@@ -226,6 +228,7 @@ a:hover, a:focus {
     margin-top: 10px;
     opacity: 0;
     transition: all 0.3s ease-out 0s;
+    
 }
 .product-more-link a span::after {
     border-bottom: 5px solid #000;

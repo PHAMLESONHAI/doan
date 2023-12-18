@@ -202,6 +202,10 @@ p{
     .pay img{
         width: 100%;
     }
+    .sub-info-detail1{
+        flex-direction: column;
+    
+    }
 }
 @media only screen and (max-width:767px){
     .detail{
@@ -211,6 +215,21 @@ p{
     }
     .right-share {
          margin-top: 0; 
+    }
+}
+@media only screen and (max-width:991px){
+    .usb{
+        flex-direction: column;
+    }
+    .info-product-detail-right{
+        display: none;
+    }
+    .evaluation-custom {
+       flex-direction: column;
+       margin-top: 20px;
+    }
+    .evaluation{
+        margin-top: 30px;
     }
 }
 
@@ -273,14 +292,13 @@ p{
     width: 60%;
 }
 .pay{
-    margin-top: 30px;
+    margin-top: 10px;
 }
 .pay span{
     margin-right: 20px;
 }
 .detail1{
-    height: 500vh;
-    background-color: rgb(246,246,246);
+    height: 289vh;
 }
 .info-product-detail{
     display: flex; 
@@ -293,8 +311,9 @@ p{
     border-radius: 12px;
 }
 .info-product-detail-right{
-    background-color: #888;
+    background-color: #f7f7f7;
     margin-top: 30px;
+    border-radius: 15px;
 }
 .sub-info-detail{
     padding: 25px;
@@ -339,16 +358,15 @@ p{
 .usb{
     display: flex;
     text-align: center;
+    padding: 0 30px;
 }
-.right-usb{
-    margin-right: 15px;
-}
+
 .left-usb img{
-    width: 70%;
+    width: 90%;
     border-radius: 10px;
 }
 .mid-usb img{
-    max-width: 60%;
+    width: 90%;
     border-radius: 10px;
 }
 .right-usb img{
@@ -356,22 +374,157 @@ p{
     border-radius: 5%;
 }
 .left-usb h4{
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .mid-usb h4{
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 0;
 }
 
 .right-usb h4{
+    margin-top: 10px;
+}
+
+.mid-usb p{
+    margin: 0 20px;
+}
+.design{
+    margin-top: 30px;
+    text-align: center;
+    margin: 0 40px;
+}
+.design img{
+    width: 100%;
+}
+.info-product-detail-right {
+    margin-top: 30px;
+    padding: 25px;
+}
+.info-product-detail-right .title1{
+    font-weight: 600;
+    font-size: 25px;
+}
+.chip{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+.chip h5{
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+.chip i{
+    font-size: 20px;
+}
+.sub-chip{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin-top: 20px;
 }
-.left-usb p{
+.sub-chip-left{
+   font-size: 14px;
+   font-weight: 600;
+}
+.sub-chip-right{
+    font-size: 14px;
+}
+.evaluation-custom{
+    display: flex;
+    margin-top: 40px;
+    align-items:baseline;
+    justify-content: space-between;
+}
+
+.bottom-detail h4{
     margin-left: 15px;
 }
-.mid-usb p{
-    margin: 0 30px;
+.sub-bottom-right h1{
+    font-weight: 600;
+   font-size: 65px;
 }
+.sub-bottom-left{
+    margin-top: 40px;
+    text-align: center;
+}
+.bottom-star{
+    margin-top: 25px;
+}
+.bottom-star{
+    align-items: center;
+    display: flex;
+}
+.sub-star-right.sub-star-rightv1{
+    margin-left: 20px;
+    margin-right: 6px;
+}
+.sub-star-left{
+    white-space: nowrap;
+}
+.sub-star-right{
+    margin: 0 20px;
+    width: 78%;
+    border-radius: 12px;
+    background-color: #000000;
+    height: 13px;
+}
+.evaluationv1{
+     display: flex;
+     margin-top: 20px;
+}
+.evaluationv1-right i:hover{
+   color: #e2e524;
+}
+.evaluation .title1{
+    margin-top: 30px;
+}
+.evaluationv1-right{
+    margin-left: 20px;
+    letter-spacing: 2px;
+}
+.evaluationv1-right.two{
+    margin-left: 24px;
+}
+.evaluation .three{
+    margin-left: 70px;
+}
+.evaluation .four{
+    margin-left: 37px;
+}
+.box-detail{
+    flex-wrap: wrap;
+}
+.box-detail p{
+    margin-top: 20px;
+}
+.box-detail .sub-box1{
+    padding: 5px;
+    width: 90%;
+    margin-top: 10px;
+}
+.sub-box1.box{
+    width: 50%;
+}
+.checkbox1{
+    margin-top: 20px;
+    font-size: 14px;
+}
+.checkbox1 input{
+    margin-right: 20px;
+}
+button{
+    margin-top: 20px;
+    padding: 7px;
+    border: none;
+    background: #1a1a1a;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+
+
+
 
 
 

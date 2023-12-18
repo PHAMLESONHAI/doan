@@ -1,4 +1,4 @@
-import { Container } from "reactstrap"
+import { Col, Container, Row } from "reactstrap"
 import img1 from "../../img/logofooter.png"
 import "./Footer.css"
 
@@ -8,6 +8,36 @@ export default function Footer() {
         <div>
             <div className="footer">
                 <Container>
+                    <Row>
+                            <div className="address-footer">
+                            <Col sm="12" md="6" lg="3">
+                                <div className="address-footer1">
+                                    <h5>Hà Nội Store</h5>
+                                    <p>Số 11 Đường Ven Sông Lừ, P. Kim Liên, Q. Đống Đa, TP. Hà Nội</p>
+                                </div>
+                                </Col>
+                                <Col sm="12" md="6" lg="3">
+                                <div className="address-footer1">
+                                    <h5>Hà Nội Store</h5>
+                                    <p>Số 11 ngõ 41 Đông Tác, P.  Kim Liên, Q. Đống Đa, TP. Hà Nội</p>
+                                </div>
+                                </Col>
+                                <Col sm="12" md="6" lg="3">
+                                <div className="address-footer1">
+                                    <h5>Hồ Chí Minh Store</h5>
+                                    <p>Số 62 Đường Hoa Cau, Phường 7, Q. Phú Nhuận, TP. HCM</p>
+                                </div>
+                                </Col>
+                                <Col sm="12" md="6" lg="3">
+                                <div className="address-footer1">
+                                    <h5>Hồ Chí Minh Store</h5>
+                                    <p>Đường Đông Hưng Thuận 2, p, Tân Hưng Thuận, Quận 12. TP. HCM</p>
+                                </div>
+                                </Col>
+                            </div>
+                        
+                    </Row>
+                    <div className="border"></div>
                 <div className="row">
                     <div className=" col-md-3 col-sm-6 col-ms-12">
                         <div className="first">

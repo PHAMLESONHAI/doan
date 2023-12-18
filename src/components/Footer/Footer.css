@@ -148,12 +148,13 @@
 }
 
 
-@media only screen and (max-width:992px){
+@media only screen and (max-width:991px){
 
     .footer .first .logo1 {
         flex-direction: column;
-        
-
+    }
+    .address-footer1.ver2{
+        padding: 0px;
     }
 }
 @media only screen and (max-width:767.13px){
@@ -176,9 +177,20 @@
         padding-right: 15px;
     }
     
-
 .footer .footer-box p {
     font-weight: 600;
     margin-top: 30px;
 }
+
 }
+.address-footer{
+    flex-wrap: wrap;
+    display: flex;
+}
+.address-footer p{
+    margin-top: 10px;
+}
+.address-footer1{
+    margin: 15px;
+}
+
