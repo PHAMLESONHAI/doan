@@ -1,4 +1,4 @@
-*{
+    *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -215,21 +215,6 @@ p{
     }
     .right-share {
          margin-top: 0; 
-    }
-}
-@media only screen and (max-width:991px){
-    .usb{
-        flex-direction: column;
-    }
-    .info-product-detail-right{
-        display: none;
-    }
-    .evaluation-custom {
-       flex-direction: column;
-       margin-top: 20px;
-    }
-    .evaluation{
-        margin-top: 30px;
     }
 }
 
@@ -472,59 +457,6 @@ p{
      display: flex;
      margin-top: 20px;
 }
-.evaluationv1-right i:hover{
-   color: #e2e524;
-}
-.evaluation .title1{
-    margin-top: 30px;
-}
-.evaluationv1-right{
-    margin-left: 20px;
-    letter-spacing: 2px;
-}
-.evaluationv1-right.two{
-    margin-left: 24px;
-}
-.evaluation .three{
-    margin-left: 70px;
-}
-.evaluation .four{
-    margin-left: 37px;
-}
-.box-detail{
-    flex-wrap: wrap;
-}
-.box-detail p{
-    margin-top: 20px;
-}
-.box-detail .sub-box1{
-    padding: 5px;
-    width: 90%;
-    margin-top: 10px;
-}
-.sub-box1.box{
-    width: 50%;
-}
-.checkbox1{
-    margin-top: 20px;
-    font-size: 14px;
-}
-.checkbox1 input{
-    margin-right: 20px;
-}
-button{
-    margin-top: 20px;
-    padding: 7px;
-    border: none;
-    background: #1a1a1a;
-    color: #fff;
-    border-radius: 5px;
-    margin-bottom: 30px;
-}
-
-
-
-
 
 
 
